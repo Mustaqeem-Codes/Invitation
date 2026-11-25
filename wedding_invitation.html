@@ -1,263 +1,282 @@
 <!doctype html>
 <html lang="en" class="scroll-smooth">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <title>Muhammad Waseem Wedding | Official Invitation</title>
-    <meta name="description" content="In the Name of Allah. You are cordially invited to the wedding celebrations of Amina Siddiqui & Zayd Al-Mansoor." />
-    <meta id="meta-theme-color" name="theme-color" content="#07070a" />
 
-    <!-- Prevent flash of unstyled theme on load -->
-    <script>
-      (function () {
-        try {
-          const savedTheme = localStorage.getItem('wedding-series-theme');
-          const prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
-          const theme = savedTheme || (prefersLight ? 'light' : 'dark');
-          if (theme === 'light') {
-            document.documentElement.setAttribute('data-theme', 'light');
-          }
-        } catch (e) {}
-      })();
-    </script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Muhammad Waseem Wedding | Official Invitation</title>
+  <meta name="description"
+    content="In the Name of Allah. You are cordially invited to the wedding celebrations of Amina Siddiqui & Zayd Al-Mansoor." />
+  <meta id="meta-theme-color" name="theme-color" content="#07070a" />
 
-    <!-- Google Fonts matching the repository's cinematic typography -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Bebas+Neue&family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700;800&family=Noto+Nastaliq+Urdu:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Prevent flash of unstyled theme on load -->
+  <script>
+    (function () {
+      try {
+        const savedTheme = localStorage.getItem('wedding-series-theme');
+        const prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+        const theme = savedTheme || (prefersLight ? 'light' : 'dark');
+        if (theme === 'light') {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      } catch (e) { }
+    })();
+  </script>
 
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              obsidian: 'var(--bg-obsidian)',
-              surface: 'var(--bg-surface)',
-              surfaceElevated: 'var(--bg-elevated)',
-              crimson: 'var(--accent-crimson)',
-              crimsonDark: 'var(--accent-crimson-dark)',
-              gold: 'var(--accent-gold)',
-              goldLight: 'var(--accent-gold-light)',
-            },
-            fontFamily: {
-              display: ['"Bebas Neue"', 'sans-serif'],
-              serif: ['"Instrument Serif"', 'serif'],
-              arabic: ['"Amiri"', 'serif'],
-              urdu: ['"Jameel Noori Nastaleeq"', '"Jameel Noori Nastaleeq Kasheeda"', '"Noto Nastaliq Urdu"', 'serif'],
-              sans: ['"Inter"', 'sans-serif'],
-            },
+  <!-- Google Fonts matching the repository's cinematic typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Bebas+Neue&family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700;800&family=Noto+Nastaliq+Urdu:wght@400;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            obsidian: 'var(--bg-obsidian)',
+            surface: 'var(--bg-surface)',
+            surfaceElevated: 'var(--bg-elevated)',
+            crimson: 'var(--accent-crimson)',
+            crimsonDark: 'var(--accent-crimson-dark)',
+            gold: 'var(--accent-gold)',
+            goldLight: 'var(--accent-gold-light)',
+          },
+          fontFamily: {
+            display: ['"Bebas Neue"', 'sans-serif'],
+            serif: ['"Instrument Serif"', 'serif'],
+            arabic: ['"Amiri"', 'serif'],
+            urdu: ['"Jameel Noori Nastaleeq"', '"Jameel Noori Nastaleeq Kasheeda"', '"Noto Nastaliq Urdu"', 'serif'],
+            sans: ['"Inter"', 'sans-serif'],
           },
         },
-      };
-    </script>
+      },
+    };
+  </script>
 
-    <style>
-      @font-face {
-        font-family: 'Jameel Noori Nastaleeq';
-        src: local('Jameel Noori Nastaleeq'), local('Jameel Noori Nastaleeq Regular'),
-          url('https://cdn.jsdelivr.net/gh/nicbarker/urdu-fonts@master/JameelNooriNastaleeq.woff2') format('woff2');
-        font-weight: normal;
-        font-style: normal;
-        font-display: swap;
-      }
+  <style>
+    @font-face {
+      font-family: 'Jameel Noori Nastaleeq';
+      src: local('Jameel Noori Nastaleeq'), local('Jameel Noori Nastaleeq Regular'),
+        url('https://cdn.jsdelivr.net/gh/nicbarker/urdu-fonts@master/JameelNooriNastaleeq.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
 
-      :root {
-        --bg-obsidian: #07070a;
-        --bg-surface: #0e0e13;
-        --bg-elevated: #16161e;
-        --text-primary: #f4f4f6;
-        --text-secondary: #d4d4d8;
-        --text-muted: #a1a1aa;
-        --border-subtle: rgba(255, 255, 255, 0.1);
-        --card-glass: rgba(22, 22, 30, 0.85);
-        --nav-bg: rgba(7, 7, 10, 0.85);
-        --accent-crimson: #e50914;
-        --accent-crimson-dark: #b20710;
-        --accent-gold: #d4af37;
-        --accent-gold-light: #f3d87d;
-        --particle-alpha: 0.45;
-      }
+    :root {
+      --bg-obsidian: #07070a;
+      --bg-surface: #0e0e13;
+      --bg-elevated: #16161e;
+      --text-primary: #f4f4f6;
+      --text-secondary: #d4d4d8;
+      --text-muted: #a1a1aa;
+      --border-subtle: rgba(255, 255, 255, 0.1);
+      --card-glass: rgba(22, 22, 30, 0.85);
+      --nav-bg: rgba(7, 7, 10, 0.85);
+      --accent-crimson: #e50914;
+      --accent-crimson-dark: #b20710;
+      --accent-gold: #d4af37;
+      --accent-gold-light: #f3d87d;
+      --particle-alpha: 0.45;
+    }
 
-      [data-theme='light'] {
-        --bg-obsidian: #faf8f5;
-        --bg-surface: #f2eee8;
-        --bg-elevated: #ffffff;
-        --text-primary: #18181b;
-        --text-secondary: #3f3f46;
-        --text-muted: #71717a;
-        --border-subtle: rgba(24, 24, 27, 0.12);
-        --card-glass: rgba(255, 255, 255, 0.92);
-        --nav-bg: rgba(250, 248, 245, 0.9);
-        --accent-crimson: #c8102e;
-        --accent-crimson-dark: #9e0b22;
-        --accent-gold: #a87e1b;
-        --accent-gold-light: #8a6410;
-        --particle-alpha: 0.3;
-      }
+    [data-theme='light'] {
+      --bg-obsidian: #faf8f5;
+      --bg-surface: #f2eee8;
+      --bg-elevated: #ffffff;
+      --text-primary: #18181b;
+      --text-secondary: #3f3f46;
+      --text-muted: #71717a;
+      --border-subtle: rgba(24, 24, 27, 0.12);
+      --card-glass: rgba(255, 255, 255, 0.92);
+      --nav-bg: rgba(250, 248, 245, 0.9);
+      --accent-crimson: #c8102e;
+      --accent-crimson-dark: #9e0b22;
+      --accent-gold: #a87e1b;
+      --accent-gold-light: #8a6410;
+      --particle-alpha: 0.3;
+    }
 
-      body {
-        background-color: var(--bg-obsidian);
-        color: var(--text-primary);
-        font-family: 'Inter', sans-serif;
-        overflow-x: hidden;
-        transition: background-color 0.4s ease, color 0.4s ease;
-      }
+    body {
+      background-color: var(--bg-obsidian);
+      color: var(--text-primary);
+      font-family: 'Inter', sans-serif;
+      overflow-x: hidden;
+      transition: background-color 0.4s ease, color 0.4s ease;
+    }
 
-      /* Light Mode Adaptive Utility Overrides */
-      [data-theme='light'] .text-white {
-        color: #18181b !important;
-      }
-      [data-theme='light'] .text-zinc-200,
-      [data-theme='light'] .text-zinc-300 {
-        color: #3f3f46 !important;
-      }
-      [data-theme='light'] .text-zinc-400,
-      [data-theme='light'] .text-zinc-500 {
-        color: #71717a !important;
-      }
-      [data-theme='light'] .border-white\/10,
-      [data-theme='light'] .border-white\/15,
-      [data-theme='light'] .border-white\/5 {
-        border-color: rgba(24, 24, 27, 0.12) !important;
-      }
-      [data-theme='light'] .bg-white\/5,
-      [data-theme='light'] .bg-white\/10 {
-        background-color: rgba(24, 24, 27, 0.05) !important;
-      }
-      [data-theme='light'] .hover\:bg-white\/15:hover,
-      [data-theme='light'] .hover\:bg-white\/20:hover {
-        background-color: rgba(24, 24, 27, 0.1) !important;
-      }
-      [data-theme='light'] .bg-crimson .text-white,
-      [data-theme='light'] button.bg-crimson,
-      [data-theme='light'] a.bg-crimson,
-      [data-theme='light'] span.bg-crimson {
-        color: #ffffff !important;
-      }
-      [data-theme='light'] .hero-primary-btn {
-        background-color: #18181b !important;
-        color: #faf8f5 !important;
-      }
-      [data-theme='light'] .hero-primary-btn:hover {
-        background-color: #c8102e !important;
-        color: #ffffff !important;
-      }
-      [data-theme='light'] .portrait-vignette {
-        background: linear-gradient(to top, var(--bg-surface) 4%, rgba(242, 238, 232, 0.15) 45%, transparent 100%) !important;
-      }
-      [data-theme='light'] .tilt-card {
-        box-shadow: 0 12px 32px -10px rgba(24, 24, 27, 0.08);
-      }
+    /* Light Mode Adaptive Utility Overrides */
+    [data-theme='light'] .text-white {
+      color: #18181b !important;
+    }
 
-      /* Urdu Nastaleeq Line Height & Kerning Harmony */
-      .font-urdu {
-        font-family: 'Jameel Noori Nastaleeq', 'Noto Nastaliq Urdu', serif;
-        line-height: 2.15 !important;
-        letter-spacing: 0 !important;
-      }
+    [data-theme='light'] .text-zinc-200,
+    [data-theme='light'] .text-zinc-300 {
+      color: #3f3f46 !important;
+    }
 
-      /* Subtle Film Grain Overlay */
-      .film-grain {
-        position: fixed;
-        inset: 0;
-        pointer-events: none;
-        z-index: 45;
-        opacity: 0.03;
-        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
-      }
+    [data-theme='light'] .text-zinc-400,
+    [data-theme='light'] .text-zinc-500 {
+      color: #71717a !important;
+    }
 
-      /* Custom Scrollbar */
-      ::-webkit-scrollbar {
-        width: 6px;
-        height: 6px;
-      }
-      ::-webkit-scrollbar-track {
-        background: var(--bg-obsidian);
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #3f3f46;
-        border-radius: 9999px;
-      }
-      ::-webkit-scrollbar-thumb:hover {
-        background: var(--accent-crimson);
-      }
+    [data-theme='light'] .border-white\/10,
+    [data-theme='light'] .border-white\/15,
+    [data-theme='light'] .border-white\/5 {
+      border-color: rgba(24, 24, 27, 0.12) !important;
+    }
 
-      /* 3D Tilt Card Effect */
-      .tilt-card {
-        transform-style: preserve-3d;
-        transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.3s ease, background-color 0.4s ease;
-      }
-      .tilt-card:hover {
-        box-shadow: 0 25px 60px -15px rgba(229, 9, 20, 0.22), 0 0 30px rgba(212, 175, 55, 0.14);
-      }
+    [data-theme='light'] .bg-white\/5,
+    [data-theme='light'] .bg-white\/10 {
+      background-color: rgba(24, 24, 27, 0.05) !important;
+    }
 
-      /* Shimmer Gold Text */
-      .text-gold-gradient {
-        background: linear-gradient(135deg, #f3d87d 0%, #d4af37 50%, #aa8220 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-      }
-      [data-theme='light'] .text-gold-gradient {
-        background: linear-gradient(135deg, #b8891e 0%, #8c630d 55%, #694806 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-      }
+    [data-theme='light'] .hover\:bg-white\/15:hover,
+    [data-theme='light'] .hover\:bg-white\/20:hover {
+      background-color: rgba(24, 24, 27, 0.1) !important;
+    }
 
-      /* Reveal Animation */
-      .reveal-up {
+    [data-theme='light'] .bg-crimson .text-white,
+    [data-theme='light'] button.bg-crimson,
+    [data-theme='light'] a.bg-crimson,
+    [data-theme='light'] span.bg-crimson {
+      color: #ffffff !important;
+    }
+
+    [data-theme='light'] .hero-primary-btn {
+      background-color: #18181b !important;
+      color: #faf8f5 !important;
+    }
+
+    [data-theme='light'] .hero-primary-btn:hover {
+      background-color: #c8102e !important;
+      color: #ffffff !important;
+    }
+
+    [data-theme='light'] .portrait-vignette {
+      background: linear-gradient(to top, var(--bg-surface) 4%, rgba(242, 238, 232, 0.15) 45%, transparent 100%) !important;
+    }
+
+    [data-theme='light'] .tilt-card {
+      box-shadow: 0 12px 32px -10px rgba(24, 24, 27, 0.08);
+    }
+
+    /* Urdu Nastaleeq Line Height & Kerning Harmony */
+    .font-urdu {
+      font-family: 'Jameel Noori Nastaleeq', 'Noto Nastaliq Urdu', serif;
+      line-height: 2.15 !important;
+      letter-spacing: 0 !important;
+    }
+
+    /* Subtle Film Grain Overlay */
+    .film-grain {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 45;
+      opacity: 0.03;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: var(--bg-obsidian);
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #3f3f46;
+      border-radius: 9999px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--accent-crimson);
+    }
+
+    /* 3D Tilt Card Effect */
+    .tilt-card {
+      transform-style: preserve-3d;
+      transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.3s ease, background-color 0.4s ease;
+    }
+
+    .tilt-card:hover {
+      box-shadow: 0 25px 60px -15px rgba(229, 9, 20, 0.22), 0 0 30px rgba(212, 175, 55, 0.14);
+    }
+
+    /* Shimmer Gold Text */
+    .text-gold-gradient {
+      background: linear-gradient(135deg, #f3d87d 0%, #d4af37 50%, #aa8220 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    [data-theme='light'] .text-gold-gradient {
+      background: linear-gradient(135deg, #b8891e 0%, #8c630d 55%, #694806 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    /* Reveal Animation */
+    .reveal-up {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .reveal-up.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Studio Intro Animation */
+    @keyframes studioPulse {
+      0% {
+        letter-spacing: 0.45em;
         opacity: 0;
-        transform: translateY(28px);
-        transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        transform: scale(0.95);
       }
-      .reveal-up.is-visible {
+
+      40% {
         opacity: 1;
-        transform: translateY(0);
       }
 
-      /* Studio Intro Animation */
-      @keyframes studioPulse {
-        0% {
-          letter-spacing: 0.45em;
-          opacity: 0;
-          transform: scale(0.95);
-        }
-        40% {
-          opacity: 1;
-        }
-        100% {
-          letter-spacing: 0.2em;
-          opacity: 1;
-          transform: scale(1);
-        }
+      100% {
+        letter-spacing: 0.2em;
+        opacity: 1;
+        transform: scale(1);
       }
-      .animate-studio {
-        animation: studioPulse 1.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-      }
-    </style>
-  </head>
-  <body class="antialiased selection:bg-crimson selection:text-white">
-    <!-- Ambient Film Grain -->
-    <div class="film-grain"></div>
+    }
 
-    <!-- Ambient Floating Particles Canvas -->
-    <canvas id="ambient-canvas" class="fixed inset-0 pointer-events-none z-0 opacity-75"></canvas>
+    .animate-studio {
+      animation: studioPulse 1.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+  </style>
+</head>
 
-    <!-- Global Toast Notification (Replaces alert) -->
-    <div
-      id="global-toast"
-      class="fixed bottom-6 right-6 z-50 hidden max-w-sm px-5 py-3.5 rounded-2xl bg-surfaceElevated border border-gold/50 shadow-2xl text-xs font-medium text-white flex items-center gap-3 backdrop-blur-md transition-all"
-    >
-      <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 shrink-0"></span>
-      <span id="global-toast-msg">Copied to clipboard!</span>
-    </div>
+<body class="antialiased selection:bg-crimson selection:text-white">
+  <!-- Ambient Film Grain -->
+  <div class="film-grain"></div>
 
-    <!-- Studio Pre-loader / Opening Slate -->
-    <div
+  <!-- Ambient Floating Particles Canvas -->
+  <canvas id="ambient-canvas" class="fixed inset-0 pointer-events-none z-0 opacity-75"></canvas>
+
+  <!-- Global Toast Notification (Replaces alert) -->
+  <div id="global-toast"
+    class="fixed bottom-6 right-6 z-50 hidden max-w-sm px-5 py-3.5 rounded-2xl bg-surfaceElevated border border-gold/50 shadow-2xl text-xs font-medium text-white flex items-center gap-3 backdrop-blur-md transition-all">
+    <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 shrink-0"></span>
+    <span id="global-toast-msg">Copied to clipboard!</span>
+  </div>
+
+  <!-- Studio Pre-loader / Opening Slate -->
+  <!-- <div
       id="studio-slate"
       class="fixed inset-0 z-50 bg-[#040406] flex flex-col items-center justify-center px-6 text-center transition-opacity duration-700"
     >
@@ -284,41 +303,37 @@
           </button>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <!-- ===================================================================== -->
-    <!-- STREAMING "WHO'S WATCHING?" GUEST SELECTOR GATE & MODAL               -->
-    <!-- ===================================================================== -->
+  <!-- ===================================================================== -->
+  <!-- STREAMING "WHO'S WATCHING?" GUEST SELECTOR GATE & MODAL               -->
+  <!-- ===================================================================== -->
+  <div id="guest-selector-modal"
+    class="fixed inset-0 z-50 hidden items-center justify-center p-4 sm:p-6 bg-black/90 backdrop-blur-xl"
+    onclick="if(event.target === this) closeGuestSelector()">
     <div
-      id="guest-selector-modal"
-      class="fixed inset-0 z-50 hidden items-center justify-center p-4 sm:p-6 bg-black/90 backdrop-blur-xl"
-      onclick="if(event.target === this) closeGuestSelector()"
-    >
-      <div class="w-full max-w-4xl rounded-3xl bg-surfaceElevated border border-white/15 p-6 sm:p-10 text-center space-y-7 shadow-2xl relative">
-        <button
-          onclick="closeGuestSelector()"
-          aria-label="Skip Guest Selection"
-          class="absolute top-5 right-5 px-3.5 py-1.5 rounded-full bg-white/10 hover:bg-crimson text-[11px] font-semibold uppercase tracking-wider text-zinc-300 hover:text-white transition-colors"
-        >
-          Skip &times;
-        </button>
+      class="w-full max-w-4xl rounded-3xl bg-surfaceElevated border border-white/15 p-6 sm:p-10 text-center space-y-7 shadow-2xl relative">
+      <button onclick="closeGuestSelector()" aria-label="Skip Guest Selection"
+        class="absolute top-5 right-5 px-3.5 py-1.5 rounded-full bg-white/10 hover:bg-crimson text-[11px] font-semibold uppercase tracking-wider text-zinc-300 hover:text-white transition-colors">
+        Skip &times;
+      </button>
 
-        <div class="space-y-2">
-          <span class="text-[11px] font-bold tracking-[0.3em] uppercase text-crimson">
-            Personalized Viewing Experience
-          </span>
-          <h2 class="font-display text-3xl sm:text-5xl tracking-wider text-white uppercase">
-            Who's Watching The Premiere?
-          </h2>
-          <p class="text-xs sm:text-sm text-zinc-400 max-w-lg mx-auto">
-            Select your side of the family to tailor event highlights, concierge contacts, and RSVP defaults.
-          </p>
-        </div>
+      <div class="space-y-2">
+        <span class="text-[11px] font-bold tracking-[0.3em] uppercase text-crimson">
+          Personalized Viewing Experience
+        </span>
+        <h2 class="font-display text-3xl sm:text-5xl tracking-wider text-white uppercase">
+          Who's Watching The Premiere?
+        </h2>
+        <p class="text-xs sm:text-sm text-zinc-400 max-w-lg mx-auto">
+          Select your side of the family to tailor event highlights, concierge contacts, and RSVP defaults.
+        </p>
+      </div>
 
-        <!-- 4 Streaming Profile Avatars -->
-        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 max-w-3xl mx-auto pt-2">
-          <!-- Profile 1: Bride's Squad -->
-          <button
+      <!-- 4 Streaming Profile Avatars -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 max-w-3xl mx-auto pt-2">
+        <!-- Profile 1: Bride's Squad -->
+        <!-- <button
             onclick="selectGuestProfile('bride')"
             class="group flex flex-col items-center p-4 sm:p-5 rounded-2xl bg-surface border border-white/10 hover:border-gold transition-all transform hover:-translate-y-1.5"
           >
@@ -332,346 +347,311 @@
               لڑکی والے
             </span>
             <span class="text-[10px] text-zinc-400 mt-1">Siddiqui Family &amp; Friends</span>
-          </button>
+          </button> -->
 
-          <!-- Profile 2: Groom's Side -->
-          <button
-            onclick="selectGuestProfile('groom')"
-            class="group flex flex-col items-center p-4 sm:p-5 rounded-2xl bg-surface border border-white/10 hover:border-gold transition-all transform hover:-translate-y-1.5"
-          >
-            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-br from-amber-500 to-yellow-700 flex items-center justify-center text-white font-display text-3xl shadow-lg group-hover:scale-105 transition-transform">
-              GS
-            </div>
-            <span class="mt-3 font-bold text-sm text-white group-hover:text-gold transition-colors">
-              Groom's Side
-            </span>
-            <span class="font-urdu text-base text-gold mt-0.5" dir="rtl" lang="ur">
-              لڑکے والے
-            </span>
-            <span class="text-[10px] text-zinc-400 mt-1">Al-Mansoor Family &amp; Barat</span>
-          </button>
+        <!-- Profile 2: Groom's Side -->
+        <button onclick="selectGuestProfile('groom')"
+          class="group flex flex-col items-center p-4 sm:p-5 rounded-2xl bg-surface border border-white/10 hover:border-gold transition-all transform hover:-translate-y-1.5">
+          <div
+            class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-br from-amber-500 to-yellow-700 flex items-center justify-center text-white font-display text-3xl shadow-lg group-hover:scale-105 transition-transform">
+            GS
+          </div>
+          <span class="mt-3 font-bold text-sm text-white group-hover:text-gold transition-colors">
+            Groom's Side
+          </span>
+          <span class="font-urdu text-base text-gold mt-0.5" dir="rtl" lang="ur">
+            لڑکے والے
+          </span>
+          <span class="text-[10px] text-zinc-400 mt-1">Al-Mansoor Family &amp; Barat</span>
+        </button>
 
-          <!-- Profile 3: VIP Family -->
-          <button
-            onclick="selectGuestProfile('family')"
-            class="group flex flex-col items-center p-4 sm:p-5 rounded-2xl bg-surface border border-white/10 hover:border-gold transition-all transform hover:-translate-y-1.5"
-          >
-            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-br from-emerald-600 to-teal-800 flex items-center justify-center text-white font-display text-3xl shadow-lg group-hover:scale-105 transition-transform">
-              VIP
-            </div>
-            <span class="mt-3 font-bold text-sm text-white group-hover:text-gold transition-colors">
-              VIP Family
-            </span>
-            <span class="font-urdu text-base text-gold mt-0.5" dir="rtl" lang="ur">
-              خاندانِ خاص
-            </span>
-            <span class="text-[10px] text-zinc-400 mt-1">Elders &amp; Close Relatives</span>
-          </button>
+        <!-- Profile 3: VIP Family -->
+        <button onclick="selectGuestProfile('family')"
+          class="group flex flex-col items-center p-4 sm:p-5 rounded-2xl bg-surface border border-white/10 hover:border-gold transition-all transform hover:-translate-y-1.5">
+          <div
+            class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-br from-emerald-600 to-teal-800 flex items-center justify-center text-white font-display text-3xl shadow-lg group-hover:scale-105 transition-transform">
+            VIP
+          </div>
+          <span class="mt-3 font-bold text-sm text-white group-hover:text-gold transition-colors">
+            VIP Family
+          </span>
+          <span class="font-urdu text-base text-gold mt-0.5" dir="rtl" lang="ur">
+            خاندانِ خاص
+          </span>
+          <span class="text-[10px] text-zinc-400 mt-1">Elders &amp; Close Relatives</span>
+        </button>
 
-          <!-- Profile 4: Honored Guest -->
-          <button
-            onclick="selectGuestProfile('guest')"
-            class="group flex flex-col items-center p-4 sm:p-5 rounded-2xl bg-surface border border-white/10 hover:border-gold transition-all transform hover:-translate-y-1.5"
-          >
-            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-br from-indigo-600 to-slate-800 flex items-center justify-center text-white font-display text-3xl shadow-lg group-hover:scale-105 transition-transform">
-              HG
-            </div>
-            <span class="mt-3 font-bold text-sm text-white group-hover:text-gold transition-colors">
-              Honored Guest
-            </span>
-            <span class="font-urdu text-base text-gold mt-0.5" dir="rtl" lang="ur">
-              معزز مہمان
-            </span>
-            <span class="text-[10px] text-zinc-400 mt-1">Out-of-Town &amp; Colleagues</span>
-          </button>
-        </div>
+        <!-- Profile 4: Honored Guest -->
+        <button onclick="selectGuestProfile('guest')"
+          class="group flex flex-col items-center p-4 sm:p-5 rounded-2xl bg-surface border border-white/10 hover:border-gold transition-all transform hover:-translate-y-1.5">
+          <div
+            class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-br from-indigo-600 to-slate-800 flex items-center justify-center text-white font-display text-3xl shadow-lg group-hover:scale-105 transition-transform">
+            HG
+          </div>
+          <span class="mt-3 font-bold text-sm text-white group-hover:text-gold transition-colors">
+            Honored Guest
+          </span>
+          <span class="font-urdu text-base text-gold mt-0.5" dir="rtl" lang="ur">
+            معزز مہمان
+          </span>
+          <span class="text-[10px] text-zinc-400 mt-1">Out-of-Town &amp; Colleagues</span>
+        </button>
       </div>
     </div>
+  </div>
 
-    <!-- Hide-on-Scroll Streaming Navigation Bar -->
-    <header
-      id="navbar"
-      style="background-color: var(--nav-bg);"
-      class="fixed top-0 inset-x-0 z-40 transition-all duration-500 backdrop-blur-md border-b border-white/10"
-    >
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between gap-2">
-        <!-- Series Brand Logo -->
-        <a href="#bismillah-hero" class="flex items-center gap-2.5 sm:gap-3 group shrink-0">
-          <span
-            class="w-8 h-8 rounded-lg bg-crimson flex items-center justify-center font-display text-xl tracking-wider !text-white shadow-lg shadow-crimson/30 group-hover:scale-105 transition-transform"
-          >
-            N
+  <!-- Hide-on-Scroll Streaming Navigation Bar -->
+  <header id="navbar" style="background-color: var(--nav-bg);"
+    class="fixed top-0 inset-x-0 z-40 transition-all duration-500 backdrop-blur-md border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between gap-2">
+      <!-- Series Brand Logo -->
+      <a href="#bismillah-hero" class="flex items-center gap-2.5 sm:gap-3 group shrink-0">
+        <span
+          class="w-8 h-8 rounded-lg bg-crimson flex items-center justify-center font-display text-xl tracking-wider !text-white shadow-lg shadow-crimson/30 group-hover:scale-105 transition-transform">
+          W
+        </span>
+        <div class="flex flex-col">
+          <span class="font-display text-lg sm:text-2xl tracking-[0.12em] text-white leading-none">
+            MUHAMMAD WASEEM
           </span>
-          <div class="flex flex-col">
-            <span class="font-display text-lg sm:text-2xl tracking-[0.12em] text-white leading-none">
-              MUHAMMAD <span class="text-gold">&amp;</span> WASEEM
+          <span class="text-[9px] tracking-[0.28em] uppercase text-zinc-400 font-semibold">
+            The Wedding Ceremony
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="hidden xl:flex items-center gap-5 text-[11px] font-medium tracking-[0.15em] uppercase text-zinc-300">
+        <a href="#bismillah-hero" class="hover:text-crimson transition-colors">Bismillah</a>
+        <a href="#invitation-banner" class="hover:text-crimson transition-colors">Invitation</a>
+        <a href="#bride-profile" class="hover:text-crimson transition-colors">Bride</a>
+        <a href="#groom-profile" class="hover:text-crimson transition-colors">Groom</a>
+        <a href="#ceremonies" class="hover:text-crimson transition-colors">Ceremonies</a>
+        <a href="#salami-registry" class="hover:text-crimson transition-colors">Salami &amp; Gifts</a>
+      </nav>
+
+      <!-- Action Buttons: Active Guest Switcher, Light/Dark Toggle, Teaser, RSVP -->
+      <div class="flex items-center gap-2 sm:gap-2.5">
+        <!-- Active Guest Profile Pill -->
+        <button onclick="openGuestSelector()" title="Switch Guest Profile"
+          class="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-2 rounded-lg bg-white/5 hover:bg-white/15 border border-white/10 text-[11px] font-semibold text-zinc-200 transition-all">
+          <span id="nav-profile-dot" class="w-2 h-2 rounded-full bg-gold"></span>
+          <span id="nav-profile-label" class="max-w-[85px] sm:max-w-none truncate">Honored Guest</span>
+          <span class="text-[9px] opacity-70">&#9662;</span>
+        </button>
+
+        <!-- Light / Dark Theme Toggle Button -->
+        <button id="theme-toggle" onclick="toggleTheme()" aria-label="Toggle Light or Dark Mode"
+          title="Switch Light / Dark Mode"
+          class="p-2 sm:px-3 sm:py-2 rounded-lg bg-white/5 hover:bg-white/15 text-zinc-200 border border-white/10 transition-all flex items-center gap-1.5 text-xs font-semibold">
+          <svg id="icon-sun" class="w-4 h-4 text-gold hidden" fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg id="icon-moon" class="w-4 h-4 text-gold" fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <span id="theme-label" class="hidden md:inline text-[11px] uppercase tracking-wider">Light</span>
+        </button>
+
+
+      </div>
+    </div>
+  </header>
+
+  <main class="relative z-10">
+    <!-- ===================================================================== -->
+    <!-- SECTION 1: OPENING / HERO FRONT PAGE ("IN THE NAME OF ALLAH")         -->
+    <!-- ===================================================================== -->
+    <section id="bismillah-hero"
+      class="relative min-h-screen flex items-center justify-center pt-24 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
+      <div
+        class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[520px] sm:w-[780px] h-[360px] bg-crimson/15 rounded-full blur-[130px] pointer-events-none">
+      </div>
+      <div
+        class="absolute bottom-10 right-1/4 w-[380px] h-[300px] bg-gold/10 rounded-full blur-[120px] pointer-events-none">
+      </div>
+
+      <div class="max-w-5xl mx-auto text-center space-y-7 relative z-10">
+        <!-- Personalized Guest Welcome Banner -->
+        <div
+          class="inline-flex flex-wrap items-center justify-center gap-2.5 px-4 py-1.5 rounded-full bg-surfaceElevated/90 border border-white/10 backdrop-blur-md shadow-xl">
+          <span class="px-2 py-0.5 rounded bg-crimson text-[10px] font-bold tracking-widest uppercase !text-white">
+            WELCOME
+          </span>
+          <span id="hero-guest-greeting" class="text-xs font-medium tracking-[0.14em] uppercase text-zinc-300">
+            Welcome, Honored Guest • Season 01 Nikah Premiere
+          </span>
+        </div>
+
+        <!-- Sacred Arabic Bismillah & Urdu Nastaleeq Blessing -->
+        <div class="space-y-3 py-2">
+          <div class="flex items-center justify-center gap-4">
+            <span class="h-px w-12 sm:w-24 bg-gradient-to-r from-transparent to-gold/60"></span>
+            <span class="text-[11px] uppercase tracking-[0.35em] text-gold font-semibold">
+              In The Name of Allah
             </span>
-            <span class="text-[9px] tracking-[0.28em] uppercase text-zinc-400 font-semibold">
-              The Wedding Ceremony
-            </span>
+            <span class="h-px w-12 sm:w-24 bg-gradient-to-l from-transparent to-gold/60"></span>
           </div>
-        </a>
 
-        <!-- Desktop Nav Links -->
-        <nav class="hidden xl:flex items-center gap-5 text-[11px] font-medium tracking-[0.15em] uppercase text-zinc-300">
-          <a href="#bismillah-hero" class="hover:text-crimson transition-colors">Bismillah</a>
-          <a href="#invitation-banner" class="hover:text-crimson transition-colors">Invitation</a>
-          <a href="#bride-profile" class="hover:text-crimson transition-colors">Bride</a>
-          <a href="#groom-profile" class="hover:text-crimson transition-colors">Groom</a>
-          <a href="#ceremonies" class="hover:text-crimson transition-colors">Ceremonies</a>
-          <a href="#salami-registry" class="hover:text-crimson transition-colors">Salami &amp; Gifts</a>
-          <a href="#rsvp-section" class="hover:text-crimson transition-colors">RSVP</a>
-        </nav>
+          <h1
+            class="font-arabic text-4xl sm:text-6xl md:text-7xl lg:text-8xl text-gold-gradient leading-tight py-2 drop-shadow-[0_10px_35px_rgba(212,175,55,0.2)] animate-studio"
+            dir="rtl" lang="ar">
+            بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم
+          </h1>
 
-        <!-- Action Buttons: Active Guest Switcher, Light/Dark Toggle, Teaser, RSVP -->
-        <div class="flex items-center gap-2 sm:gap-2.5">
-          <!-- Active Guest Profile Pill -->
-          <button
-            onclick="openGuestSelector()"
-            title="Switch Guest Profile"
-            class="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-2 rounded-lg bg-white/5 hover:bg-white/15 border border-white/10 text-[11px] font-semibold text-zinc-200 transition-all"
-          >
-            <span id="nav-profile-dot" class="w-2 h-2 rounded-full bg-gold"></span>
-            <span id="nav-profile-label" class="max-w-[85px] sm:max-w-none truncate">Honored Guest</span>
-            <span class="text-[9px] opacity-70">&#9662;</span>
-          </button>
+          <!-- Special Section Urdu Nastaleeq Translation -->
+          <p class="font-urdu text-2xl sm:text-3xl text-gold" dir="rtl" lang="ur">
+            شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے
+          </p>
 
-          <!-- Light / Dark Theme Toggle Button -->
-          <button
-            id="theme-toggle"
-            onclick="toggleTheme()"
-            aria-label="Toggle Light or Dark Mode"
-            title="Switch Light / Dark Mode"
-            class="p-2 sm:px-3 sm:py-2 rounded-lg bg-white/5 hover:bg-white/15 text-zinc-200 border border-white/10 transition-all flex items-center gap-1.5 text-xs font-semibold"
-          >
-            <svg id="icon-sun" class="w-4 h-4 text-gold hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-              <circle cx="12" cy="12" r="5"></circle>
-              <line x1="12" y1="1" x2="12" y2="3"></line>
-              <line x1="12" y1="21" x2="12" y2="23"></line>
-              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-              <line x1="1" y1="12" x2="3" y2="12"></line>
-              <line x1="21" y1="12" x2="23" y2="12"></line>
-              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          <p class="font-serif italic text-xl sm:text-2xl md:text-3xl text-zinc-200 max-w-2xl mx-auto">
+            “In the Name of Allah, the Most Gracious, the Most Merciful”
+          </p>
+          <p class="text-xs sm:text-sm text-zinc-400 max-w-xl mx-auto leading-relaxed">
+            “And among His Signs is this, that He created for you mates from among yourselves, that ye may dwell in
+            tranquillity with them, and He has put love and mercy between your (hearts).” — Surah Ar-Rum (30:21)
+          </p>
+        </div>
+
+        <!-- Streaming Metadata Chips -->
+        <div class="flex flex-wrap items-center justify-center gap-3 text-xs font-medium text-zinc-300">
+          <span class="text-emerald-500 font-bold">Walima</span>
+          <span class="text-zinc-500">•</span>
+          <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-gold font-semibold">
+            Save The Date: December 06, 2026
+          </span>
+          <span class="text-zinc-500">•</span>
+          <span class="px-2 py-0.5 rounded border border-zinc-500/40 text-[11px] uppercase tracking-wider">
+            U/A • All Families
+          </span>
+          <span class="text-zinc-500">•</span>
+          <span>Muzaffargarh, Pakistan</span>
+        </div>
+
+        <!-- Primary CTA Buttons -->
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
+          <a href="#invitation-banner"
+            class="hero-primary-btn w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-white hover:bg-zinc-200 text-obsidian font-bold text-sm tracking-wider uppercase shadow-[0_0_40px_rgba(255,255,255,0.18)] transition-all transform hover:-translate-y-0.5">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
             </svg>
-            <svg id="icon-moon" class="w-4 h-4 text-gold" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-            </svg>
-            <span id="theme-label" class="hidden md:inline text-[11px] uppercase tracking-wider">Light</span>
-          </button>
-
-          <a
-            href="#rsvp-section"
-            class="px-3.5 sm:px-4 py-2 rounded-lg bg-crimson hover:bg-crimsonDark !text-white text-[11px] font-semibold tracking-wider uppercase shadow-lg shadow-crimson/25 transition-all"
-          >
-            RSVP
+            <span>Watch Invitation</span>
           </a>
+
+          <button onclick="openTrailerModal()"
+            class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-surfaceElevated/90 hover:bg-white/15 text-white font-semibold text-sm tracking-wider uppercase border border-white/15 backdrop-blur-md transition-all">
+            <svg class="w-5 h-5 text-gold" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="16" x2="12" y2="12"></line>
+              <line x1="12" y1="8" x2="12.01" y2="8"></line>
+            </svg>
+            <span>Series Highlight Reel</span>
+          </button>
         </div>
       </div>
-    </header>
 
-    <main class="relative z-10">
-      <!-- ===================================================================== -->
-      <!-- SECTION 1: OPENING / HERO FRONT PAGE ("IN THE NAME OF ALLAH")         -->
-      <!-- ===================================================================== -->
-      <section
-        id="bismillah-hero"
-        class="relative min-h-screen flex items-center justify-center pt-24 pb-16 px-4 sm:px-6 lg:px-8 overflow-hidden"
-      >
+      <a href="#invitation-banner" aria-label="Scroll to Invitation"
+        class="absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1.5 text-[10px] tracking-[0.3em] uppercase text-zinc-500 hover:text-gold transition-colors">
+        <!-- <span>Scroll</span> -->
+        <span class="w-px h-7 bg-gradient-to-b from-gold/80 to-transparent"></span>
+      </a>
+    </section>
+
+    <!-- ===================================================================== -->
+    <!-- SECTION 2: FORMAL WEDDING INVITATION BANNER                           -->
+    <!-- ===================================================================== -->
+    <section id="invitation-banner"
+      class="relative py-24 sm:py-32 px-4 sm:px-6 lg:px-8 border-t border-white/5 bg-gradient-to-b from-obsidian via-surface to-obsidian">
+      <div class="max-w-5xl mx-auto">
         <div
-          class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[520px] sm:w-[780px] h-[360px] bg-crimson/15 rounded-full blur-[130px] pointer-events-none"
-        ></div>
-        <div
-          class="absolute bottom-10 right-1/4 w-[380px] h-[300px] bg-gold/10 rounded-full blur-[120px] pointer-events-none"
-        ></div>
+          class="reveal-up rounded-3xl bg-surfaceElevated/90 border border-white/10 p-8 sm:p-14 md:p-16 text-center relative overflow-hidden shadow-2xl">
+          <div class="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-crimson via-gold to-crimson"></div>
 
-        <div class="max-w-5xl mx-auto text-center space-y-7 relative z-10">
-          <!-- Personalized Guest Welcome Banner -->
-          <div
-            class="inline-flex flex-wrap items-center justify-center gap-2.5 px-4 py-1.5 rounded-full bg-surfaceElevated/90 border border-white/10 backdrop-blur-md shadow-xl"
-          >
-            <span class="px-2 py-0.5 rounded bg-crimson text-[10px] font-bold tracking-widest uppercase !text-white">
-              ORIGINAL
-            </span>
-            <span id="hero-guest-greeting" class="text-xs font-medium tracking-[0.14em] uppercase text-zinc-300">
-              Welcome, Honored Guest • Season 01 Nikah Premiere
-            </span>
-          </div>
+          <div class="absolute top-5 left-5 w-8 h-8 border-t-2 border-l-2 border-gold/40 rounded-tl-lg"></div>
+          <div class="absolute top-5 right-5 w-8 h-8 border-t-2 border-r-2 border-gold/40 rounded-tr-lg"></div>
+          <div class="absolute bottom-5 left-5 w-8 h-8 border-b-2 border-l-2 border-gold/40 rounded-bl-lg"></div>
+          <div class="absolute bottom-5 right-5 w-8 h-8 border-b-2 border-r-2 border-gold/40 rounded-br-lg"></div>
 
-          <!-- Sacred Arabic Bismillah & Urdu Nastaleeq Blessing -->
-          <div class="space-y-3 py-2">
-            <div class="flex items-center justify-center gap-4">
-              <span class="h-px w-12 sm:w-24 bg-gradient-to-r from-transparent to-gold/60"></span>
-              <span class="text-[11px] uppercase tracking-[0.35em] text-gold font-semibold">
-                In The Name of Allah
+          <p class="text-xs sm:text-sm font-bold tracking-[0.28em] uppercase text-crimson mb-3">
+            Together With Their Beloved Families
+          </p>
+
+          <h2
+            class="font-display text-4xl sm:text-6xl md:text-7xl tracking-[0.06em] text-white leading-[0.98] uppercase max-w-4xl mx-auto">
+            WE ARE HAPPY TO INVITE YOU IN A WEDDING CEREMONY OF
+          </h2>
+
+          <!-- Couple Names Display -->
+          <div class="my-8 sm:my-10 py-6 border-y border-white/10">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-6">
+              <span class="font-serif italic text-4xl sm:text-6xl md:text-7xl text-gold-gradient">
+                Daughter of Ghulam Mustafa
               </span>
-              <span class="h-px w-12 sm:w-24 bg-gradient-to-l from-transparent to-gold/60"></span>
+              <span
+                class="w-11 h-11 rounded-full bg-crimson/15 border border-crimson/40 flex items-center justify-center font-serif italic text-2xl text-crimson">
+                &amp;
+              </span>
+              <span class="font-serif italic text-4xl sm:text-6xl md:text-7xl text-gold-gradient">
+                Muhammad Waseem
+              </span>
             </div>
 
-            <h1
-              class="font-arabic text-4xl sm:text-6xl md:text-7xl lg:text-8xl text-gold-gradient leading-tight py-2 drop-shadow-[0_10px_35px_rgba(212,175,55,0.2)] animate-studio"
-              dir="rtl"
-              lang="ar"
-            >
-              بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم
-            </h1>
-
-            <!-- Special Section Urdu Nastaleeq Translation -->
-            <p class="font-urdu text-2xl sm:text-3xl text-gold" dir="rtl" lang="ur">
-              شروع اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے
-            </p>
-
-            <p class="font-serif italic text-xl sm:text-2xl md:text-3xl text-zinc-200 max-w-2xl mx-auto">
-              “In the Name of Allah, the Most Gracious, the Most Merciful”
-            </p>
-            <p class="text-xs sm:text-sm text-zinc-400 max-w-xl mx-auto leading-relaxed">
-              “And among His Signs is this, that He created for you mates from among yourselves, that ye may dwell in
-              tranquillity with them, and He has put love and mercy between your (hearts).” — Surah Ar-Rum (30:21)
-            </p>
-          </div>
-
-          <!-- Streaming Metadata Chips -->
-          <div class="flex flex-wrap items-center justify-center gap-3 text-xs font-medium text-zinc-300">
-            <span class="text-emerald-500 font-bold">100% Blessed Match</span>
-            <span class="text-zinc-500">•</span>
-            <span class="px-2.5 py-1 rounded-md bg-white/5 border border-white/10 text-gold font-semibold">
-              Save The Date: December 20, 2026
-            </span>
-            <span class="text-zinc-500">•</span>
-            <span class="px-2 py-0.5 rounded border border-zinc-500/40 text-[11px] uppercase tracking-wider">
-              U/A • All Families
-            </span>
-            <span class="text-zinc-500">•</span>
-            <span>Lahore, Pakistan</span>
-          </div>
-
-          <!-- Primary CTA Buttons -->
-          <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
-            <a
-              href="#invitation-banner"
-              class="hero-primary-btn w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-white hover:bg-zinc-200 text-obsidian font-bold text-sm tracking-wider uppercase shadow-[0_0_40px_rgba(255,255,255,0.18)] transition-all transform hover:-translate-y-0.5"
-            >
-              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                <polygon points="5 3 19 12 5 21 5 3"></polygon>
-              </svg>
-              <span>Watch Invitation / Enter</span>
-            </a>
-
-            <button
-              onclick="openTrailerModal()"
-              class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-surfaceElevated/90 hover:bg-white/15 text-white font-semibold text-sm tracking-wider uppercase border border-white/15 backdrop-blur-md transition-all"
-            >
-              <svg class="w-5 h-5 text-gold" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                <circle cx="12" cy="12" r="10"></circle>
-                <line x1="12" y1="16" x2="12" y2="12"></line>
-                <line x1="12" y1="8" x2="12.01" y2="8"></line>
-              </svg>
-              <span>Series Highlight Reel</span>
-            </button>
-          </div>
-        </div>
-
-        <a
-          href="#invitation-banner"
-          aria-label="Scroll to Invitation"
-          class="absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1.5 text-[10px] tracking-[0.3em] uppercase text-zinc-500 hover:text-gold transition-colors"
-        >
-          <span>Scroll</span>
-          <span class="w-px h-7 bg-gradient-to-b from-gold/80 to-transparent"></span>
-        </a>
-      </section>
-
-      <!-- ===================================================================== -->
-      <!-- SECTION 2: FORMAL WEDDING INVITATION BANNER                           -->
-      <!-- ===================================================================== -->
-      <section
-        id="invitation-banner"
-        class="relative py-24 sm:py-32 px-4 sm:px-6 lg:px-8 border-t border-white/5 bg-gradient-to-b from-obsidian via-surface to-obsidian"
-      >
-        <div class="max-w-5xl mx-auto">
-          <div
-            class="reveal-up rounded-3xl bg-surfaceElevated/90 border border-white/10 p-8 sm:p-14 md:p-16 text-center relative overflow-hidden shadow-2xl"
-          >
-            <div class="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-crimson via-gold to-crimson"></div>
-
-            <div class="absolute top-5 left-5 w-8 h-8 border-t-2 border-l-2 border-gold/40 rounded-tl-lg"></div>
-            <div class="absolute top-5 right-5 w-8 h-8 border-t-2 border-r-2 border-gold/40 rounded-tr-lg"></div>
-            <div class="absolute bottom-5 left-5 w-8 h-8 border-b-2 border-l-2 border-gold/40 rounded-bl-lg"></div>
-            <div class="absolute bottom-5 right-5 w-8 h-8 border-b-2 border-r-2 border-gold/40 rounded-br-lg"></div>
-
-            <p class="text-xs sm:text-sm font-bold tracking-[0.28em] uppercase text-crimson mb-3">
-              Together With Their Beloved Families
-            </p>
-
-            <h2
-              class="font-display text-4xl sm:text-6xl md:text-7xl tracking-[0.06em] text-white leading-[0.98] uppercase max-w-4xl mx-auto"
-            >
-              WE ARE HAPPY TO INVITE YOU IN A WEDDING CEREMONY OF
-            </h2>
-
-            <!-- Couple Names Display -->
-            <div class="my-8 sm:my-10 py-6 border-y border-white/10">
-              <div class="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-6">
-                <span class="font-serif italic text-4xl sm:text-6xl md:text-7xl text-gold-gradient">
-                  Amina Siddiqui
-                </span>
-                <span
-                  class="w-11 h-11 rounded-full bg-crimson/15 border border-crimson/40 flex items-center justify-center font-serif italic text-2xl text-crimson"
-                >
-                  &amp;
-                </span>
-                <span class="font-serif italic text-4xl sm:text-6xl md:text-7xl text-gold-gradient">
-                  Zayd Al-Mansoor
-                </span>
-              </div>
-
-              <!-- Special Urdu Wedding Poetry Couplet in Jameel Noori Nastaleeq -->
-              <div class="mt-5 pt-4 border-t border-white/5">
-                <p class="font-urdu text-2xl sm:text-3xl text-gold" dir="rtl" lang="ur">
-                  دو دلوں کا یہ حسین سنگم، خدا کی رحمتوں کے سائے میں
-                </p>
-              </div>
-            </div>
-
-            <p class="text-sm sm:text-base md:text-lg text-zinc-300 max-w-2xl mx-auto leading-relaxed font-light">
-              With immense joy and gratitude to Almighty Allah, we request the honor of your presence and heartfelt
-              prayers as we unite our lives in the sacred bond of Nikah. Your blessings will make our new beginning
-              truly unforgettable.
-            </p>
-
-            <!-- Live Countdown Timer -->
-            <div class="mt-10 pt-8 border-t border-white/5">
-              <p class="text-[11px] font-semibold tracking-[0.28em] uppercase text-gold mb-5">
-                Countdown to Nikah &amp; Barat Premiere
+            <!-- Special Urdu Wedding Poetry Couplet in Jameel Noori Nastaleeq -->
+            <div class="mt-5 pt-4 border-t border-white/5">
+              <p class="font-urdu text-2xl sm:text-3xl text-gold" dir="rtl" lang="ur">
+                دو دلوں کا یہ حسین سنگم، خدا کی رحمتوں کے سائے میں
               </p>
-              <div id="countdown-grid" class="grid grid-cols-4 gap-2 sm:gap-4 max-w-lg mx-auto">
-                <div class="rounded-2xl bg-obsidian/90 border border-white/10 p-3 sm:p-4">
-                  <span id="cd-days" class="block font-display text-3xl sm:text-5xl text-white tracking-wider">00</span>
-                  <span class="text-[10px] sm:text-xs uppercase tracking-widest text-zinc-400">Days</span>
-                </div>
-                <div class="rounded-2xl bg-obsidian/90 border border-white/10 p-3 sm:p-4">
-                  <span id="cd-hours" class="block font-display text-3xl sm:text-5xl text-white tracking-wider">00</span>
-                  <span class="text-[10px] sm:text-xs uppercase tracking-widest text-zinc-400">Hours</span>
-                </div>
-                <div class="rounded-2xl bg-obsidian/90 border border-white/10 p-3 sm:p-4">
-                  <span id="cd-mins" class="block font-display text-3xl sm:text-5xl text-white tracking-wider">00</span>
-                  <span class="text-[10px] sm:text-xs uppercase tracking-widest text-zinc-400">Mins</span>
-                </div>
-                <div class="rounded-2xl bg-obsidian/90 border border-white/10 p-3 sm:p-4">
-                  <span id="cd-secs" class="block font-display text-3xl sm:text-5xl text-crimson tracking-wider">00</span>
-                  <span class="text-[10px] sm:text-xs uppercase tracking-widest text-zinc-400">Secs</span>
-                </div>
+            </div>
+          </div>
+
+          <p class="text-sm sm:text-base md:text-lg text-zinc-300 max-w-2xl mx-auto leading-relaxed font-light">
+            With immense joy and gratitude to Almighty Allah, we request the honor of your presence and heartfelt
+            prayers as we unite our lives in the sacred bond of Nikah. Your blessings will make our new beginning
+            truly unforgettable.
+          </p>
+
+          <!-- Live Countdown Timer -->
+          <div class="mt-10 pt-8 border-t border-white/5">
+            <p class="text-[11px] font-semibold tracking-[0.28em] uppercase text-gold mb-5">
+              Countdown to Nikah &amp; Barat Premiere
+            </p>
+            <div id="countdown-grid" class="grid grid-cols-4 gap-2 sm:gap-4 max-w-lg mx-auto">
+              <div class="rounded-2xl bg-obsidian/90 border border-white/10 p-3 sm:p-4">
+                <span id="cd-days" class="block font-display text-3xl sm:text-5xl text-white tracking-wider">00</span>
+                <span class="text-[10px] sm:text-xs uppercase tracking-widest text-zinc-400">Days</span>
+              </div>
+              <div class="rounded-2xl bg-obsidian/90 border border-white/10 p-3 sm:p-4">
+                <span id="cd-hours" class="block font-display text-3xl sm:text-5xl text-white tracking-wider">00</span>
+                <span class="text-[10px] sm:text-xs uppercase tracking-widest text-zinc-400">Hours</span>
+              </div>
+              <div class="rounded-2xl bg-obsidian/90 border border-white/10 p-3 sm:p-4">
+                <span id="cd-mins" class="block font-display text-3xl sm:text-5xl text-white tracking-wider">00</span>
+                <span class="text-[10px] sm:text-xs uppercase tracking-widest text-zinc-400">Mins</span>
+              </div>
+              <div class="rounded-2xl bg-obsidian/90 border border-white/10 p-3 sm:p-4">
+                <span id="cd-secs" class="block font-display text-3xl sm:text-5xl text-crimson tracking-wider">00</span>
+                <span class="text-[10px] sm:text-xs uppercase tracking-widest text-zinc-400">Secs</span>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- ===================================================================== -->
-      <!-- SECTION 3: THE BRIDE'S PROFILE ("EPISODE 01: THE BRIDE")              -->
-      <!-- ===================================================================== -->
-      <section id="bride-profile" class="py-20 sm:py-28 px-4 sm:px-6 lg:px-8 border-t border-white/5">
+    <!-- ===================================================================== -->
+    <!-- SECTION 3: THE BRIDE'S PROFILE ("EPISODE 01: THE BRIDE")              -->
+    <!-- ===================================================================== -->
+    <!-- <section id="bride-profile" class="py-20 sm:py-28 px-4 sm:px-6 lg:px-8 border-t border-white/5"> 
         <div class="max-w-6xl mx-auto">
           <div class="reveal-up flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10">
             <div>
@@ -772,360 +752,309 @@
           </div>
         </div>
       </section>
-
-      <!-- ===================================================================== -->
-      <!-- SECTION 4: THE GROOM'S PROFILE ("EPISODE 02: THE GROOM")              -->
-      <!-- ===================================================================== -->
-      <section id="groom-profile" class="py-20 sm:py-28 px-4 sm:px-6 lg:px-8 border-t border-white/5 bg-surface/40">
-        <div class="max-w-6xl mx-auto">
-          <div class="reveal-up flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10">
-            <div>
-              <div class="flex items-center gap-2 text-xs font-bold tracking-[0.25em] uppercase text-crimson mb-2">
-                <span>SEASON 1</span>
-                <span>•</span>
-                <span>EPISODE 02</span>
-              </div>
-              <h2 class="font-display text-4xl sm:text-6xl tracking-wide text-white uppercase">
-                THE GROOM <span class="font-serif italic text-gold lowercase text-3xl sm:text-5xl ml-1">— Co-Lead Cast</span>
-              </h2>
+-->
+    <!-- ===================================================================== -->
+    <!-- SECTION 4: THE GROOM'S PROFILE ("EPISODE 02: THE GROOM")              -->
+    <!-- ===================================================================== -->
+    <section id="groom-profile" class="py-20 sm:py-28 px-4 sm:px-6 lg:px-8 border-t border-white/5 bg-surface/40">
+      <div class="max-w-6xl mx-auto">
+        <div class="reveal-up flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10">
+          <div>
+            <div class="flex items-center gap-2 text-xs font-bold tracking-[0.25em] uppercase text-crimson mb-2">
+              <span>THE GROOM</span>
+              <span>•</span>
+              <span>DULHA</span>
             </div>
-            <p class="text-xs sm:text-sm text-zinc-400 max-w-md">
-              Strength, humility, and unwavering devotion—meet the co-star of forever.
-            </p>
+            <h2 class="font-display text-4xl sm:text-6xl tracking-wide text-white uppercase">
+              MUHAMMAD WASEEM <span class="font-serif italic text-gold lowercase text-3xl sm:text-5xl ml-1">— Lead
+                Cast</span>
+            </h2>
+          </div>
+          <p class="text-xs sm:text-sm text-zinc-400 max-w-md">
+            A man of faith, respect and love - ready to begin his forever.
+          </p>
+        </div>
+
+        <div
+          class="reveal-up tilt-card rounded-3xl bg-surface border border-white/10 overflow-hidden grid grid-cols-1 lg:grid-cols-12 shadow-2xl">
+          <div class="lg:col-span-7 order-2 lg:order-1 p-7 sm:p-10 md:p-12 flex flex-col justify-between space-y-6">
+            <div class="space-y-4">
+              <div
+                class="inline-block px-3 py-1 rounded-lg bg-gold/10 border border-gold/30 text-gold text-xs font-semibold tracking-wider uppercase">
+                Son of Mr. &amp; Mrs. Hafiz Ghulam Yaseen Chishti
+              </div>
+
+              <h3 class="font-serif italic text-4xl sm:text-5xl md:text-6xl text-white">
+                Muhammad Waseem
+              </h3>
+
+              <p class="text-xs sm:text-sm font-semibold uppercase tracking-[0.18em] text-zinc-400">
+                Computer Scientist &amp; Full Stack Developer
+              </p>
+
+              <p class="text-sm sm:text-base text-zinc-300 leading-relaxed">
+                Grounded in faith, integrity, and quiet determination. Waseem balances his passion for building
+                impactful technology with a deep devotion to family and community. Known for his calm wisdom,
+                thoughtful humor, and adventurous spirit, he is ready to embark on life's greatest chapter.
+              </p>
+
+              <div class="pt-2">
+                <span class="block text-[11px] uppercase tracking-[0.2em] text-zinc-500 font-semibold mb-2.5">
+                  Character Genres &amp; Traits
+                </span>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs text-zinc-200">
+                    AI &amp; Innovation
+                  </span>
+                  <span class="px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs text-zinc-200">
+                    Manager
+                  </span>
+                  <span class="px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs text-zinc-200">
+                    Production and Designer
+                  </span>
+                  <span class="px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs text-zinc-200">
+                    Faith &amp; Integrity
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="pt-6 border-t border-white/10 flex flex-wrap items-center justify-between gap-4">
+              <button onclick="openProfileModal('groom')"
+                class="inline-flex items-center gap-2.5 px-6 py-3 rounded-xl bg-white/10 hover:bg-crimson text-white hover:!text-white text-xs font-bold uppercase tracking-wider border border-white/15 hover:border-crimson transition-all">
+                <span>View Full Profile &amp; Family Details</span>
+                <span>&rarr;</span>
+              </button>
+              <!-- <span class="text-xs text-zinc-500 font-mono">CAST_ID: #GROOM-02</span> -->
+            </div>
           </div>
 
           <div
-            class="reveal-up tilt-card rounded-3xl bg-surface border border-white/10 overflow-hidden grid grid-cols-1 lg:grid-cols-12 shadow-2xl"
-          >
-            <div class="lg:col-span-7 order-2 lg:order-1 p-7 sm:p-10 md:p-12 flex flex-col justify-between space-y-6">
-              <div class="space-y-4">
-                <div class="inline-block px-3 py-1 rounded-lg bg-gold/10 border border-gold/30 text-gold text-xs font-semibold tracking-wider uppercase">
-                  Son of Mr. Kamran Al-Mansoor &amp; Mrs. Ayesha Al-Mansoor
-                </div>
-
-                <h3 class="font-serif italic text-4xl sm:text-5xl md:text-6xl text-white">
-                  Zayd Al-Mansoor
-                </h3>
-
-                <p class="text-xs sm:text-sm font-semibold uppercase tracking-[0.18em] text-zinc-400">
-                  M.Sc. AI &amp; Software Systems • Senior Engineering Lead
-                </p>
-
-                <p class="text-sm sm:text-base text-zinc-300 leading-relaxed">
-                  Grounded in faith, integrity, and quiet determination. Zayd balances his passion for building
-                  impactful technology with a deep devotion to family and community. Known for his calm wisdom,
-                  thoughtful humor, and adventurous spirit, he is ready to embark on life's greatest chapter.
-                </p>
-
-                <div class="pt-2">
-                  <span class="block text-[11px] uppercase tracking-[0.2em] text-zinc-500 font-semibold mb-2.5">
-                    Character Genres &amp; Traits
-                  </span>
-                  <div class="flex flex-wrap gap-2">
-                    <span class="px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs text-zinc-200">
-                      AI &amp; Innovation
-                    </span>
-                    <span class="px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs text-zinc-200">
-                      Mountain Trekking
-                    </span>
-                    <span class="px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs text-zinc-200">
-                      Specialty Coffee
-                    </span>
-                    <span class="px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs text-zinc-200">
-                      Faith &amp; Integrity
-                    </span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="pt-6 border-t border-white/10 flex flex-wrap items-center justify-between gap-4">
-                <button
-                  onclick="openProfileModal('groom')"
-                  class="inline-flex items-center gap-2.5 px-6 py-3 rounded-xl bg-white/10 hover:bg-crimson text-white hover:!text-white text-xs font-bold uppercase tracking-wider border border-white/15 hover:border-crimson transition-all"
-                >
-                  <span>View Full Profile &amp; Family Details</span>
-                  <span>&rarr;</span>
-                </button>
-                <span class="text-xs text-zinc-500 font-mono">CAST_ID: #GROOM-02</span>
-              </div>
+            class="lg:col-span-5 order-1 lg:order-2 relative min-h-[380px] sm:min-h-[460px] bg-surfaceElevated overflow-hidden group">
+            <img src="./img.png" , alt="Portrait of Muhammad Waseem"
+              class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700" />
+            <div class="portrait-vignette absolute inset-0 bg-gradient-to-t from-surface via-surface/20 to-transparent">
             </div>
 
-            <div
-              class="lg:col-span-5 order-1 lg:order-2 relative min-h-[380px] sm:min-h-[460px] bg-surfaceElevated overflow-hidden group"
-            >
-              <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=900&q=80"
-                onerror="this.src='https://placehold.co/600x800/16161e/d4af37?text=Zayd+Al-Mansoor+%E2%80%A2+The+Groom'"
-                alt="Portrait of Zayd Al-Mansoor"
-                class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
-              />
-              <div class="portrait-vignette absolute inset-0 bg-gradient-to-t from-surface via-surface/20 to-transparent"></div>
+            <div class="absolute top-4 right-4 flex items-center gap-2">
 
-              <div class="absolute top-4 right-4 flex items-center gap-2">
-                <span class="px-3 py-1 rounded-full bg-black/75 backdrop-blur-md border border-white/15 text-[11px] font-bold tracking-widest uppercase !text-[#f3d87d]">
-                  EP 02 • THE GROOM
-                </span>
-              </div>
+            </div>
 
-              <div class="absolute bottom-4 left-4 right-4 flex items-center justify-between text-xs">
-                <span class="px-2.5 py-1 rounded-md bg-crimson !text-white font-bold uppercase tracking-wider text-[10px]">
+            <div class="absolute bottom-4 left-4 right-4 flex items-center justify-between text-xs">
+              <!-- <span class="px-2.5 py-1 rounded-md bg-crimson !text-white font-bold uppercase tracking-wider text-[10px]">
                   Starring
-                </span>
-                <span class="bg-black/65 !text-zinc-200 backdrop-blur-md px-2.5 py-1 rounded-md border border-white/10">
-                  Lahore • Dubai
-                </span>
-              </div>
+                </span> -->
+              <span class="bg-black/65 !text-zinc-200 backdrop-blur-md px-2.5 py-1 rounded-md border border-white/10">
+                Muzaffargarh • Pakistan
+              </span>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- ===================================================================== -->
-      <!-- SECTION 5: WEDDING EVENTS & ITINERARY ("SEASON 1: THE CEREMONIES")    -->
-      <!-- ===================================================================== -->
-      <section id="ceremonies" class="py-20 sm:py-28 px-4 sm:px-6 lg:px-8 border-t border-white/5">
-        <div class="max-w-7xl mx-auto">
-          <div class="reveal-up flex flex-col md:flex-row md:items-end justify-between gap-4 mb-12">
+    <!-- ===================================================================== -->
+    <!-- SECTION 5: WEDDING EVENTS & ITINERARY ("SEASON 1: THE CEREMONIES")    -->
+    <!-- ===================================================================== -->
+    <section id="ceremonies" class="py-20 sm:py-28 px-4 sm:px-6 lg:px-8 border-t border-white/5">
+      <div class="max-w-7xl mx-auto">
+        <div class="reveal-up flex flex-col md:flex-row md:items-end justify-between gap-4 mb-12">
+          <div>
+            <div class="flex items-center gap-2 text-xs font-bold tracking-[0.25em] uppercase text-gold mb-2">
+              <span>4 EPISODES</span>
+              <span>•</span>
+              <span>DECEMBER 2026</span>
+            </div>
+            <h2 class="font-display text-4xl sm:text-6xl tracking-wide text-white uppercase">
+              THE CEREMONIES
+            </h2>
+          </div>
+          <p id="ceremony-side-note" class="text-xs sm:text-sm text-zinc-400 max-w-md">
+            Mark your calendars for four unforgettable chapters of tradition, prayer, and celebration.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Episode 1: Mehndi & Dholki -->
+          <article data-host="bride"
+            class="ceremony-card reveal-up tilt-card rounded-2xl bg-surface border border-white/10 overflow-hidden flex flex-col justify-between group">
             <div>
-              <div class="flex items-center gap-2 text-xs font-bold tracking-[0.25em] uppercase text-gold mb-2">
-                <span>4 EPISODES</span>
-                <span>•</span>
-                <span>DECEMBER 2026</span>
+              <div class="relative h-44 bg-surfaceElevated overflow-hidden">
+                <img src="./Hinna.png"
+                  onerror="this.src='https://placehold.co/600x400/1c1610/d4af37?text=Episode+01+%E2%80%A2+Mehndi'"
+                  alt="Mehndi & Dholki Celebration"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                <div
+                  class="portrait-vignette absolute inset-0 bg-gradient-to-t from-surface via-black/25 to-transparent">
+                </div>
+                <span
+                  class="absolute top-3 left-3 px-2.5 py-1 rounded bg-black/75 text-[10px] font-bold tracking-widest uppercase !text-[#f3d87d] border border-white/10">
+                  EPISODE 01
+                </span>
+                <span
+                  class="absolute bottom-3 right-3 text-[11px] font-mono !text-zinc-200 bg-black/65 px-2 py-0.5 rounded">
+                  08:00 PM
+                </span>
               </div>
-              <h2 class="font-display text-4xl sm:text-6xl tracking-wide text-white uppercase">
-                SEASON 1: THE CEREMONIES
-              </h2>
+
+              <div class="p-6 space-y-2.5">
+                <div class="flex items-center justify-between">
+                  <span class="text-xs font-semibold text-crimson uppercase tracking-wider">Thu, Dec 03, 2026</span>
+                  <span class="font-urdu text-lg text-gold" dir="rtl" lang="ur">رسمِ حنا</span>
+                </div>
+                <h3 class="font-display text-2xl tracking-wide text-white">
+                  MEHNDI &amp; DHOLKI NIGHT
+                </h3>
+                <p class="text-xs text-zinc-400 leading-relaxed">
+                  An evening of vibrant marigold hues, traditional folk melodies, henna artistry, and joyful family
+                  gatherings.
+                </p>
+                <div class="pt-2 space-y-1.5 text-xs text-zinc-300 border-t border-white/5">
+                  <div><strong class="text-gold">Venue:</strong> Groom house</div>
+                  <div><strong class="text-gold">Dress Code:</strong> Mustard, Emerald &amp; Festive</div>
+                </div>
+              </div>
             </div>
-            <p id="ceremony-side-note" class="text-xs sm:text-sm text-zinc-400 max-w-md">
-              Mark your calendars for four unforgettable chapters of tradition, prayer, and celebration.
-            </p>
-          </div>
+          </article>
 
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <!-- Episode 1: Mehndi & Dholki -->
-            <article
-              data-host="bride"
-              class="ceremony-card reveal-up tilt-card rounded-2xl bg-surface border border-white/10 overflow-hidden flex flex-col justify-between group"
-            >
-              <div>
-                <div class="relative h-44 bg-surfaceElevated overflow-hidden">
-                  <img
-                    src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=700&q=80"
-                    onerror="this.src='https://placehold.co/600x400/1c1610/d4af37?text=Episode+01+%E2%80%A2+Mehndi'"
-                    alt="Mehndi & Dholki Celebration"
-                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                  />
-                  <div class="portrait-vignette absolute inset-0 bg-gradient-to-t from-surface via-black/25 to-transparent"></div>
-                  <span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-black/75 text-[10px] font-bold tracking-widest uppercase !text-[#f3d87d] border border-white/10">
-                    EPISODE 01
-                  </span>
-                  <span class="absolute bottom-3 right-3 text-[11px] font-mono !text-zinc-200 bg-black/65 px-2 py-0.5 rounded">
-                    7:00 PM
-                  </span>
+          <!-- Episode 2: Jaga Night -->
+          <article data-host="bride"
+            class="ceremony-card reveal-up tilt-card rounded-2xl bg-surface border border-white/10 overflow-hidden flex flex-col justify-between group">
+            <div>
+              <div class="relative h-44 bg-surfaceElevated overflow-hidden">
+                <img src="./jagaa.jpg" onerror="this.src='https://placehold.co'" alt="Traditional Jaga Night"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                <div
+                  class="portrait-vignette absolute inset-0 bg-gradient-to-t from-surface via-black/25 to-transparent">
                 </div>
-
-                <div class="p-6 space-y-2.5">
-                  <div class="flex items-center justify-between">
-                    <span class="text-xs font-semibold text-crimson uppercase tracking-wider">Fri, Dec 18, 2026</span>
-                    <span class="font-urdu text-lg text-gold" dir="rtl" lang="ur">رسمِ حنا</span>
-                  </div>
-                  <h3 class="font-display text-2xl tracking-wide text-white">
-                    MEHNDI &amp; DHOLKI NIGHT
-                  </h3>
-                  <p class="text-xs text-zinc-400 leading-relaxed">
-                    An evening of vibrant marigold hues, traditional folk melodies, henna artistry, and joyful family
-                    gatherings.
-                  </p>
-                  <div class="pt-2 space-y-1.5 text-xs text-zinc-300 border-t border-white/5">
-                    <div><strong class="text-gold">Venue:</strong> Royal Palm Marquee, Lahore</div>
-                    <div><strong class="text-gold">Dress Code:</strong> Mustard, Emerald &amp; Festive</div>
-                  </div>
-                </div>
+                <span
+                  class="absolute top-3 left-3 px-2.5 py-1 rounded bg-black/75 text-[10px] font-bold tracking-widest uppercase !text-[#f3d87d] border border-white/10">
+                  EPISODE 02
+                </span>
+                <span
+                  class="absolute bottom-3 right-3 text-[11px] font-mono !text-zinc-200 bg-black/65 px-2 py-0.5 rounded">
+                  9:00 PM
+                </span>
               </div>
 
-              <div class="px-6 pb-6">
-                <a
-                  href="https://maps.google.com/?q=Royal+Palm+Golf+and+Country+Club+Lahore"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl bg-white/5 hover:bg-white/15 border border-white/10 text-xs font-semibold uppercase tracking-wider text-white transition-colors"
-                >
-                  <span>View Map</span>
-                  <span>&#8599;</span>
-                </a>
-              </div>
-            </article>
-
-            <!-- Episode 2: Nikah Ceremony -->
-            <article
-              data-host="both"
-              class="ceremony-card reveal-up tilt-card rounded-2xl bg-surface border border-gold/35 overflow-hidden flex flex-col justify-between group relative"
-            >
-              <div class="absolute top-0 inset-x-0 h-0.5 bg-gold"></div>
-              <div>
-                <div class="relative h-44 bg-surfaceElevated overflow-hidden">
-                  <img
-                    src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=700&q=80"
-                    onerror="this.src='https://placehold.co/600x400/16161e/d4af37?text=Episode+02+%E2%80%A2+Nikah'"
-                    alt="Sacred Nikah Ceremony"
-                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                  />
-                  <div class="portrait-vignette absolute inset-0 bg-gradient-to-t from-surface via-black/25 to-transparent"></div>
-                  <span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-crimson text-[10px] font-bold tracking-widest uppercase !text-white">
-                    EPISODE 02 • FEATURE
-                  </span>
-                  <span class="absolute bottom-3 right-3 text-[11px] font-mono !text-zinc-200 bg-black/65 px-2 py-0.5 rounded">
-                    2:30 PM
-                  </span>
+              <div class="p-6 space-y-2.5">
+                <div class="flex items-center justify-between">
+                  <span class="text-xs font-semibold text-crimson uppercase tracking-wider">Fri, Dec 04, 2026</span>
+                  <span class="font-urdu text-lg text-gold" dir="rtl" lang="ur">تقریبِ جاگا </span>
                 </div>
-
-                <div class="p-6 space-y-2.5">
-                  <div class="flex items-center justify-between">
-                    <span class="text-xs font-semibold text-gold uppercase tracking-wider">Sat, Dec 19, 2026</span>
-                    <span class="font-urdu text-lg text-gold" dir="rtl" lang="ur">تقریبِ نکاح</span>
-                  </div>
-                  <h3 class="font-display text-2xl tracking-wide text-white">
-                    SACRED NIKAH CEREMONY
-                  </h3>
-                  <p class="text-xs text-zinc-400 leading-relaxed">
-                    Under the serene domes, two hearts solemnly pledge their sacred covenant before Allah and cherished
-                    elders.
-                  </p>
-                  <div class="pt-2 space-y-1.5 text-xs text-zinc-300 border-t border-white/5">
-                    <div><strong class="text-gold">Venue:</strong> Grand Mosque Courtyard, DHA</div>
-                    <div><strong class="text-gold">Dress Code:</strong> Ivory, White &amp; Pastel Gold</div>
-                  </div>
+                <h3 class="font-display text-2xl tracking-wide text-white">
+                  JAGA NIGHT
+                </h3>
+                <p class="text-xs text-zinc-400 leading-relaxed">
+                  An energetic night of traditional dhol beats, festive folk songs, family dances, and late-night
+                  celebration.
+                </p>
+                <div class="pt-2 space-y-1.5 text-xs text-zinc-300 border-t border-white/5">
+                  <div><strong class="text-gold">Venue:</strong> Groom House</div>
+                  <div><strong class="text-gold">Dress Code:</strong> Traditional &amp; Vibrant</div>
                 </div>
               </div>
+            </div>
 
-              <div class="px-6 pb-6">
-                <a
-                  href="https://maps.google.com/?q=Grand+Jamia+Mosque+Lahore"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl bg-gold/15 hover:bg-gold/25 border border-gold/40 text-xs font-semibold uppercase tracking-wider text-goldLight transition-colors"
-                >
-                  <span>View Map</span>
-                  <span>&#8599;</span>
-                </a>
-              </div>
-            </article>
 
-            <!-- Episode 3: Barat & Rukhsati -->
-            <article
-              data-host="bride"
-              class="ceremony-card reveal-up tilt-card rounded-2xl bg-surface border border-white/10 overflow-hidden flex flex-col justify-between group"
-            >
-              <div>
-                <div class="relative h-44 bg-surfaceElevated overflow-hidden">
-                  <img
-                    src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=700&q=80"
-                    onerror="this.src='https://placehold.co/600x400/1e1012/e50914?text=Episode+03+%E2%80%A2+Barat'"
-                    alt="Royal Barat & Rukhsati"
-                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                  />
-                  <div class="portrait-vignette absolute inset-0 bg-gradient-to-t from-surface via-black/25 to-transparent"></div>
-                  <span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-black/75 text-[10px] font-bold tracking-widest uppercase !text-[#f3d87d] border border-white/10">
-                    EPISODE 03
-                  </span>
-                  <span class="absolute bottom-3 right-3 text-[11px] font-mono !text-zinc-200 bg-black/65 px-2 py-0.5 rounded">
-                    7:30 PM
-                  </span>
+          </article>
+
+
+          <!-- Episode 2: Barat & Rukhsati -->
+          <article data-host="bride"
+            class="ceremony-card reveal-up tilt-card rounded-2xl bg-surface border border-white/10 overflow-hidden flex flex-col justify-between group">
+            <div>
+              <div class="relative h-44 bg-surfaceElevated overflow-hidden">
+                <img src="./Barat.avif"
+                  onerror="this.src='https://placehold.co/600x400/1e1012/e50914?text=Episode+03+%E2%80%A2+Barat'"
+                  alt="Royal Barat & Rukhsati"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                <div
+                  class="portrait-vignette absolute inset-0 bg-gradient-to-t from-surface via-black/25 to-transparent">
                 </div>
+                <span
+                  class="absolute top-3 left-3 px-2.5 py-1 rounded bg-black/75 text-[10px] font-bold tracking-widest uppercase !text-[#f3d87d] border border-white/10">
+                  EPISODE 03
+                </span>
+                <span
+                  class="absolute bottom-3 right-3 text-[11px] font-mono !text-zinc-200 bg-black/65 px-2 py-0.5 rounded">
+                  7:30 PM
+                </span>
+              </div>
 
-                <div class="p-6 space-y-2.5">
-                  <div class="flex items-center justify-between">
-                    <span class="text-xs font-semibold text-crimson uppercase tracking-wider">Sun, Dec 20, 2026</span>
-                    <span class="font-urdu text-lg text-gold" dir="rtl" lang="ur">بارات و رخصتی</span>
-                  </div>
-                  <h3 class="font-display text-2xl tracking-wide text-white">
-                    BARAT &amp; RUKHSATI
-                  </h3>
-                  <p class="text-xs text-zinc-400 leading-relaxed">
-                    The grand royal procession, heartfelt welcome of the groom's family, festive dinner, and emotional
-                    send-off.
-                  </p>
-                  <div class="pt-2 space-y-1.5 text-xs text-zinc-300 border-t border-white/5">
-                    <div><strong class="text-gold">Venue:</strong> Pearl Continental Grand Ballroom</div>
-                    <div><strong class="text-gold">Dress Code:</strong> Crimson, Gold &amp; Formal</div>
-                  </div>
+              <div class="p-6 space-y-2.5">
+                <div class="flex items-center justify-between">
+                  <span class="text-xs font-semibold text-crimson uppercase tracking-wider">Sat, Dec 05, 2026</span>
+                  <span class="font-urdu text-lg text-gold" dir="rtl" lang="ur">تقریبِ نکاح، بارات و رخصتی</span>
+                </div>
+                <h3 class="font-display text-2xl tracking-wide text-white">
+                  NIKAH, BARAT &amp; RUKHSATI
+                </h3>
+                <p class="text-xs text-zinc-400 leading-relaxed">
+                  The grand royal procession, heartfelt welcome of the groom's family, festive dinner, and emotional
+                  send-off.
+                </p>
+                <div class="pt-2 space-y-1.5 text-xs text-zinc-300 border-t border-white/5">
+                  <div><strong class="text-gold">Venue:</strong> Groom House</div>
+                  <div><strong class="text-gold">Dress Code:</strong> Crimson, Gold &amp; Formal</div>
                 </div>
               </div>
+            </div>
 
-              <div class="px-6 pb-6">
-                <a
-                  href="https://maps.google.com/?q=Pearl+Continental+Hotel+Lahore"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl bg-white/5 hover:bg-white/15 border border-white/10 text-xs font-semibold uppercase tracking-wider text-white transition-colors"
-                >
-                  <span>View Map</span>
-                  <span>&#8599;</span>
-                </a>
-              </div>
-            </article>
 
-            <!-- Episode 4: Walima Reception -->
-            <article
-              data-host="groom"
-              class="ceremony-card reveal-up tilt-card rounded-2xl bg-surface border border-white/10 overflow-hidden flex flex-col justify-between group"
-            >
-              <div>
-                <div class="relative h-44 bg-surfaceElevated overflow-hidden">
-                  <img
-                    src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?auto=format&fit=crop&w=700&q=80"
-                    onerror="this.src='https://placehold.co/600x400/12161e/d4af37?text=Episode+04+%E2%80%A2+Walima'"
-                    alt="Walima Grand Reception"
-                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                  />
-                  <div class="portrait-vignette absolute inset-0 bg-gradient-to-t from-surface via-black/25 to-transparent"></div>
-                  <span class="absolute top-3 left-3 px-2.5 py-1 rounded bg-black/75 text-[10px] font-bold tracking-widest uppercase !text-[#f3d87d] border border-white/10">
-                    EPISODE 04 • FINALE
-                  </span>
-                  <span class="absolute bottom-3 right-3 text-[11px] font-mono !text-zinc-200 bg-black/65 px-2 py-0.5 rounded">
-                    8:00 PM
-                  </span>
+          </article>
+
+          <!-- Episode 4: Walima Reception -->
+          <article data-host="groom"
+            class="ceremony-card reveal-up tilt-card rounded-2xl bg-surface border border-white/10 overflow-hidden flex flex-col justify-between group">
+            <div>
+              <div class="relative h-44 bg-surfaceElevated overflow-hidden">
+                <img src="./walima.avif"
+                  onerror="this.src='https://placehold.co/600x400/12161e/d4af37?text=Episode+04+%E2%80%A2+Walima'"
+                  alt="Walima Grand Reception"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                <div
+                  class="portrait-vignette absolute inset-0 bg-gradient-to-t from-surface via-black/25 to-transparent">
                 </div>
+                <span
+                  class="absolute top-3 left-3 px-2.5 py-1 rounded bg-crimson text-[10px] font-bold tracking-widest uppercase !text-white">
+                  EPISODE 04 • FEATURE
+                </span>
+                <span
+                  class="absolute bottom-3 right-3 text-[11px] font-mono !text-zinc-200 bg-black/65 px-2 py-0.5 rounded">
+                  03:00 PM
+                </span>
+              </div>
 
-                <div class="p-6 space-y-2.5">
-                  <div class="flex items-center justify-between">
-                    <span class="text-xs font-semibold text-crimson uppercase tracking-wider">Mon, Dec 21, 2026</span>
-                    <span class="font-urdu text-lg text-gold" dir="rtl" lang="ur">دعوتِ ولیمہ</span>
-                  </div>
-                  <h3 class="font-display text-2xl tracking-wide text-white">
-                    WALIMA GRAND RECEPTION
-                  </h3>
-                  <p class="text-xs text-zinc-400 leading-relaxed">
-                    Hosted by the Al-Mansoor family to celebrate the newlyweds with candlelight dining, warm tributes,
-                    and gratitude.
-                  </p>
-                  <div class="pt-2 space-y-1.5 text-xs text-zinc-300 border-t border-white/5">
-                    <div><strong class="text-gold">Venue:</strong> Faletti's Heritage Gardens</div>
-                    <div><strong class="text-gold">Dress Code:</strong> Midnight Blue, Silver &amp; Black Tie</div>
-                  </div>
+              <div class="p-6 space-y-2.5">
+                <div class="flex items-center justify-between">
+                  <span class="text-xs font-semibold text-crimson uppercase tracking-wider">Sun, Dec 06, 2026</span>
+                  <span class="font-urdu text-lg text-gold" dir="rtl" lang="ur">دعوتِ ولیمہ</span>
+                </div>
+                <h3 class="font-display text-2xl tracking-wide text-white">
+                  WALIMA GRAND RECEPTION
+                </h3>
+                <p class="text-xs text-zinc-400 leading-relaxed">
+                  Hosted by the Al-Mansoor family to celebrate the newlyweds with candlelight dining, warm tributes,
+                  and gratitude.
+                </p>
+                <div class="pt-2 space-y-1.5 text-xs text-zinc-300 border-t border-white/5">
+                  <div><strong class="text-gold">Venue:</strong> Faletti's Heritage Gardens</div>
+                  <div><strong class="text-gold">Dress Code:</strong> Midnight Blue, Silver &amp; Black Tie</div>
                 </div>
               </div>
+            </div>
 
-              <div class="px-6 pb-6">
-                <a
-                  href="https://maps.google.com/?q=Falettis+Hotel+Lahore"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl bg-white/5 hover:bg-white/15 border border-white/10 text-xs font-semibold uppercase tracking-wider text-white transition-colors"
-                >
-                  <span>View Map</span>
-                  <span>&#8599;</span>
-                </a>
-              </div>
-            </article>
-          </div>
+
+          </article>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- ===================================================================== -->
-      <!-- SECTION 6: TRAVEL GUIDE & ACCOMMODATION ("BONUS EPISODES: STAY")      -->
-      <!-- ===================================================================== -->
-      <!-- <section 
+    <!-- ===================================================================== -->
+    <!-- SECTION 6: TRAVEL GUIDE & ACCOMMODATION ("BONUS EPISODES: STAY")      -->
+    <!-- ===================================================================== -->
+    <!-- <section 
         id="travel-guide"
         class="py-20 sm:py-28 px-4 sm:px-6 lg:px-8 border-t border-white/5 bg-surface/40"
       >
@@ -1461,106 +1390,102 @@
         </div>
       </section>
 -->
-      <!-- ===================================================================== -->
-      <!-- SECTION 7: DIGITAL SALAMI & GIFT REGISTRY ("SPECIAL FEATURE")         -->
-      <!-- ===================================================================== -->
-      <section
-        id="salami-registry"
-        class="py-20 sm:py-28 px-4 sm:px-6 lg:px-8 border-t border-white/5"
-      >
-        <div class="max-w-6xl mx-auto">
-          <div class="reveal-up text-center max-w-2xl mx-auto mb-12 space-y-3">
-            <span class="text-xs font-bold tracking-[0.28em] uppercase text-gold">
-              Special Feature • Tokens of Love
-            </span>
-            <h2 class="font-display text-4xl sm:text-6xl tracking-wide text-white uppercase">
-              DIGITAL SALAMI &amp;
-            </h2>
-            <p class="font-urdu text-2xl text-gold" dir="rtl" lang="ur">
-              آپ کی دعا اور شرکت ہی ہمارے لیے سب سے قیمتی تحفہ ہے
-            </p>
-            <p class="text-xs sm:text-sm text-zinc-400">
-              Your presence and prayers are the greatest blessing we could ask for. For family and friends who have
-              inquired about sending Salami or a wedding gift from near or far, we have provided convenient options below.
-            </p>
-          </div>
+    <!-- ===================================================================== -->
+    <!-- SECTION 7: DIGITAL SALAMI & GIFT REGISTRY ("SPECIAL FEATURE")         -->
+    <!-- ===================================================================== -->
+    <section id="salami-registry" class="py-20 sm:py-28 px-4 sm:px-6 lg:px-8 border-t border-white/5">
+      <div class="max-w-6xl mx-auto">
+        <!-- Section Header -->
+        <div class="reveal-up text-center max-w-2xl mx-auto mb-12 space-y-3">
+          <span class="text-xs font-bold tracking-[0.28em] uppercase text-gold">
+            Special Feature • Tokens of Love
+          </span>
+          <h2 class="font-display text-4xl sm:text-6xl tracking-wide text-white uppercase">
+            DIGITAL SALAMI
+          </h2>
+          <p class="font-urdu text-2xl text-gold" dir="rtl" lang="ur">
+            آپ کی دعا اور شرکت ہی ہمارے لیے سب سے قیمتی تحفہ ہے
+          </p>
+        </div>
 
-          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
-            <!-- Left 6 Cols: Digital Salami (Bank IBAN & Mobile Wallets) -->
-            <div class="reveal-up lg:col-span-6 rounded-3xl bg-surfaceElevated border border-white/10 p-7 sm:p-9 flex flex-col justify-between space-y-6 shadow-xl">
-              <div class="space-y-2">
-                <div class="flex items-center justify-between">
-                  <span class="px-3 py-1 rounded-full bg-crimson/15 text-crimson text-[11px] font-bold uppercase tracking-wider">
-                    Digital Salami Envelope
-                  </span>
-                  <span class="font-urdu text-xl text-gold" dir="rtl" lang="ur">سلامی</span>
-                </div>
-                <h3 class="font-display text-3xl tracking-wide text-white uppercase">
-                  Direct Bank &amp; Mobile Transfer
-                </h3>
-                <p class="text-xs text-zinc-400">
-                  Tap any account number or Raast ID below to copy instantly.
-                </p>
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+          <!-- Centered 6 Cols on PC: Digital Salami (Bank IBAN & Mobile Wallets) -->
+          <div
+            class="reveal-up lg:col-span-6 lg:col-start-4 rounded-3xl bg-surfaceElevated border border-white/10 p-7 sm:p-9 flex flex-col justify-between space-y-6 shadow-xl">
+            <div class="space-y-2">
+              <div class="flex items-center justify-between">
+                <span
+                  class="px-3 py-1 rounded-full bg-crimson/15 text-crimson text-[11px] font-bold uppercase tracking-wider">
+                  Digital Salami Envelope
+                </span>
+                <!-- rest of your card content -->
+
+                </span>
+                <span class="font-urdu text-xl text-gold" dir="rtl" lang="ur">سلامی</span>
               </div>
-
-              <div class="space-y-3.5">
-                <!-- Meezan Bank IBAN -->
-                <div class="p-4 rounded-2xl bg-obsidian border border-white/10 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-                  <div>
-                    <div class="text-[11px] font-bold uppercase tracking-wider text-gold">
-                      Meezan Bank • Muhammad Mustaqeem
-                    </div>
-                    <div class="font-mono text-xs sm:text-sm text-white mt-0.5 select-all">
-                      PK10 MEZN 00025 8201 0902 1542
-                    </div>
-                  </div>
-                  <button
-                    onclick="copyText('PK10MEZN00025820109021542', 'Meezan Bank IBAN copied!')"
-                    class="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-crimson text-white hover:!text-white text-[11px] font-bold uppercase tracking-wider transition-colors shrink-0"
-                  >
-                    Copy IBAN
-                  </button>
-                </div>
-
-                <!-- Raast ID -->
-                <div class="p-4 rounded-2xl bg-obsidian border border-white/10 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-                  <div>
-                    <div class="text-[11px] font-bold uppercase tracking-wider text-emerald-400">
-                      Raast Instant ID • Muhammad Mustaqeem
-                    </div>
-                    <div class="font-mono text-xs sm:text-sm text-white mt-0.5 select-all">
-                      03225379161
-                    </div>
-                  </div>
-                  <button
-                    onclick="copyText('03225379161', 'Raast ID 03001234567 copied!')"
-                    class="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-crimson text-white hover:!text-white text-[11px] font-bold uppercase tracking-wider transition-colors shrink-0"
-                  >
-                    Copy Raast
-                  </button>
-                </div>
-
-                <!-- JazzCash / EasyPaisa -->
-                <div class="p-4 rounded-2xl bg-obsidian border border-white/10 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-                  <div>
-                    <div class="text-[11px] font-bold uppercase tracking-wider text-zinc-400">
-                      JazzCash Wallet • Muhammad Mustaqeem
-                    </div>
-                    <div class="font-mono text-xs sm:text-sm text-white mt-0.5 select-all">
-                      03225379161 
-                    </div>
-                  </div>
-                  <button
-                    onclick="copyText('03225379161', 'Mobile wallet number copied!')"
-                    class="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-crimson text-white hover:!text-white text-[11px] font-bold uppercase tracking-wider transition-colors shrink-0"
-                  >
-                    Copy Number
-                  </button>
-                </div>
-              </div>
+              <h3 class="font-display text-3xl tracking-wide text-white uppercase">
+                Direct Bank &amp; Mobile Transfer
+              </h3>
+              <p class="text-xs text-zinc-400">
+                Tap any account number or Raast ID below to copy instantly.
+              </p>
             </div>
 
-            <!-- Right 6 Cols: Curated Gift Registry & Sadaqah Jariyah 
+            <div class="space-y-3.5">
+              <!-- Meezan Bank IBAN -->
+              <div
+                class="p-4 rounded-2xl bg-obsidian border border-white/10 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                <div>
+                  <div class="text-[11px] font-bold uppercase tracking-wider text-gold">
+                    Meezan Bank • Muhammad Mustaqeem
+                  </div>
+                  <div class="font-mono text-xs sm:text-sm text-white mt-0.5 select-all">
+                    PK10 MEZN 00025 8201 0902 1542
+                  </div>
+                </div>
+                <button onclick="copyText('PK10MEZN00025820109021542', 'Meezan Bank IBAN copied!')"
+                  class="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-crimson text-white hover:!text-white text-[11px] font-bold uppercase tracking-wider transition-colors shrink-0">
+                  Copy IBAN
+                </button>
+              </div>
+
+              <!-- Raast ID -->
+              <div
+                class="p-4 rounded-2xl bg-obsidian border border-white/10 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                <div>
+                  <div class="text-[11px] font-bold uppercase tracking-wider text-emerald-400">
+                    Raast Instant ID • Muhammad Mustaqeem
+                  </div>
+                  <div class="font-mono text-xs sm:text-sm text-white mt-0.5 select-all">
+                    03225379161
+                  </div>
+                </div>
+                <button onclick="copyText('03225379161', 'Raast ID 03001234567 copied!')"
+                  class="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-crimson text-white hover:!text-white text-[11px] font-bold uppercase tracking-wider transition-colors shrink-0">
+                  Copy Raast
+                </button>
+              </div>
+
+              <!-- JazzCash / EasyPaisa -->
+              <div
+                class="p-4 rounded-2xl bg-obsidian border border-white/10 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                <div>
+                  <div class="text-[11px] font-bold uppercase tracking-wider text-zinc-400">
+                    JazzCash Wallet • Muhammad Mustaqeem
+                  </div>
+                  <div class="font-mono text-xs sm:text-sm text-white mt-0.5 select-all">
+                    03225379161
+                  </div>
+                </div>
+                <button onclick="copyText('03225379161', 'Mobile wallet number copied!')"
+                  class="px-3.5 py-2 rounded-xl bg-white/10 hover:bg-crimson text-white hover:!text-white text-[11px] font-bold uppercase tracking-wider transition-colors shrink-0">
+                  Copy Number
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right 6 Cols: Curated Gift Registry & Sadaqah Jariyah 
             <div class="reveal-up lg:col-span-6 rounded-3xl bg-surfaceElevated border border-white/10 p-7 sm:p-9 flex flex-col justify-between space-y-6 shadow-xl">
               <div class="space-y-2">
                 <div class="flex items-center justify-between">
@@ -1618,19 +1543,17 @@
                 </div>
               </div>
             </div>-->
-          </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- ===================================================================== -->
-      <!-- SECTION 8: INTERACTIVE RSVP & BLESSINGS ("JOIN THE CAST & GUESTBOOK") -->
-      <!-- ===================================================================== -->
-      <!-- <section 
-        id="rsvp-section"
-        class="py-20 sm:py-28 px-4 sm:px-6 lg:px-8 border-t border-white/5 bg-gradient-to-b from-obsidian via-surface/60 to-obsidian"
-      >
-        <div class="max-w-6xl mx-auto">
-          <div class="reveal-up text-center max-w-2xl mx-auto mb-14 space-y-3">
+    <!-- ===================================================================== -->
+    <!-- SECTION 8: INTERACTIVE RSVP & BLESSINGS ("JOIN THE CAST & GUESTBOOK") -->
+    <!-- ===================================================================== -->
+    <section id="rsvp-section"
+      class="py-20 sm:py-28 px-4 sm:px-6 lg:px-8 border-t border-white/5 bg-gradient-to-b from-obsidian via-surface/60 to-obsidian">
+      <div class="max-w-6xl mx-auto">
+        <!--<div class="reveal-up text-center max-w-2xl mx-auto mb-14 space-y-3">
             <span class="text-xs font-bold tracking-[0.28em] uppercase text-crimson">
               Guest Pass &amp; Duas
             </span>
@@ -1763,631 +1686,623 @@
               </div>
             </div>
 -->
-            <!-- Live Guest Blessings Wall (6 Columns) -->
-            <div class="reveal-up lg:col-span-6 space-y-4">
-              <div class="flex items-center justify-between px-1">
-                <h3 class="font-display text-2xl tracking-wider text-white uppercase">
-                  Live Guest Blessings &amp; Duas
-                </h3>
-                <span id="blessing-count" class="px-3 py-1 rounded-full bg-gold/15 text-gold text-xs font-semibold">
-                  Blessings
-                </span>
-              </div>
-
-              <div id="blessings-list" class="space-y-4 max-h-[560px] overflow-y-auto pr-1">
-                <div class="rounded-2xl bg-surface border border-white/10 p-5 space-y-2.5">
-                  <div class="flex items-center justify-between gap-2">
-                    <span class="font-semibold text-sm text-white">Mr &amp; Ms. Ghulam Yaseen Chishti</span>
-                    <span class="px-2.5 py-0.5 rounded-full bg-emerald-500/15 text-emerald-500 text-[10px] font-semibold uppercase">
-                      Groom Parents
-                    </span>
-                  </div>
-                  <p class="font-urdu text-xl text-gold" dir="rtl" lang="ur">
-                    بَارَكَ اللَّهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ
-                  </p>
-                  <p class="text-xs text-zinc-400 leading-relaxed">
-                    May Allah bless both of you, shower His mercy upon your home, and unite you always in goodness and
-                    joy. Counting down the days!
-                  </p>
-                </div>
-
-                <div class="rounded-2xl bg-surface border border-white/10 p-5 space-y-2.5">
-                  <div class="flex items-center justify-between gap-2">
-                    <span class="font-semibold text-sm text-white">Mr &amp; Ms. Taseen</span>
-                    <span class="px-2.5 py-0.5 rounded-full bg-emerald-500/15 text-emerald-500 text-[10px] font-semibold uppercase">
-                      Groom Uncle
-                    </span>
-                  </div>
-                  <p class="text-xs text-zinc-300 leading-relaxed">
-                    The most awaited premiere of the year! So thrilled for Amina and Zayd—may your journey together be
-                    filled with endless laughter, peace, and Barakah.
-                  </p>
-                </div>
-
-                <div class="rounded-2xl bg-surface border border-white/10 p-5 space-y-2.5">
-                  <div class="flex items-center justify-between gap-2">
-                    <span class="font-semibold text-sm text-white">Mr &amp; Ms. Ameen</span>
-                    <span class="px-2.5 py-0.5 rounded-full bg-gold/15 text-gold text-[10px] font-semibold uppercase">
-                      Groom Uncle
-                    </span>
-                  </div>
-                  <p class="text-xs text-zinc-300 leading-relaxed">
-                    Sending warmest prayers from London for our beloved niece Amina and Zayd. May Almighty Allah grant
-                    you a lifetime of love, prosperity, and harmony.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- ===================================================================== -->
-    <!-- SECTION 9: STREAMING-INSPIRED FOOTER                                  -->
-    <!-- ===================================================================== -->
-    <footer class="relative z-10 border-t border-white/10 bg-surface pt-16 pb-12 px-4 sm:px-6 lg:px-8">
-      <div class="max-w-7xl mx-auto">
-        <div class="text-center pb-12 border-b border-white/10 space-y-3">
-          <p class="text-xs font-bold tracking-[0.35em] uppercase text-crimson">
-            TO BE CONTINUED IN PARADISE, IN SHA ALLAH
-          </p>
-          <h2 class="font-display text-3xl sm:text-5xl tracking-[0.08em] text-white uppercase">
-            A LIFETIME ORIGINAL • SEASON 1 PREMIERING DECEMBER 2026
-          </h2>
-          <p class="font-serif italic text-lg text-gold">
-            Amina Siddiqui &amp; Zayd Al-Mansoor
-          </p>
-        </div>
-
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 py-12 text-xs text-zinc-400">
-          <div class="space-y-3">
-            <div class="flex items-center gap-2.5">
-              <span class="w-7 h-7 rounded bg-crimson flex items-center justify-center font-display text-lg !text-white">
-                N
-              </span>
-              <span class="font-display text-xl tracking-widest text-white">AMINA &amp; ZAYD</span>
-            </div>
-            <p class="leading-relaxed text-zinc-500">
-              Produced with love by the Siddiqui &amp; Al-Mansoor Families. Your presence and Duas are our most treasured
-              gifts.
-            </p>
-          </div>
-
-          <div class="space-y-2.5">
-            <h4 class="font-bold uppercase tracking-[0.2em] text-zinc-200 mb-3">Episodes &amp; Links</h4>
-            <ul class="space-y-2">
-              <li><a href="#bismillah-hero" class="hover:text-gold transition-colors">Opening: In the Name of Allah</a></li>
-              <li><a href="#bride-profile" class="hover:text-gold transition-colors">Episode 01: The Bride</a></li>
-              <li><a href="#groom-profile" class="hover:text-gold transition-colors">Episode 02: The Groom</a></li>
-              <li><a href="#ceremonies" class="hover:text-gold transition-colors">Season 1: Ceremonies</a></li>
-              <li><a href="#travel-guide" class="hover:text-gold transition-colors">Travel &amp; Accommodation</a></li>
-              <li><a href="#salami-registry" class="hover:text-gold transition-colors">Digital Salami &amp; Registry</a></li>
-            </ul>
-          </div>
-
-          <div class="space-y-2.5">
-            <h4 class="font-bold uppercase tracking-[0.2em] text-zinc-200 mb-3">Family Contacts</h4>
-            <ul class="space-y-2">
-              <li>
-                <span class="text-zinc-300 font-medium">Siddiqui Family (Bride):</span><br />
-                <a href="tel:+923001234567" class="hover:text-gold transition-colors">+92 300 123 4567</a>
-              </li>
-              <li>
-                <span class="text-zinc-300 font-medium">Al-Mansoor Family (Groom):</span><br />
-                <a href="tel:+923217654321" class="hover:text-gold transition-colors">+92 321 765 4321</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="space-y-3">
-            <h4 class="font-bold uppercase tracking-[0.2em] text-zinc-200 mb-3">Main Premiere Venue</h4>
-            <p class="leading-relaxed">
-              Pearl Continental Grand Ballroom<br />
-              Shahrah-e-Quaid-e-Azam, Lahore, Pakistan
-            </p>
-            <button
-              onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
-              class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/5 hover:bg-crimson text-white hover:!text-white font-semibold uppercase tracking-wider border border-white/10 hover:border-crimson transition-all"
-            >
-              <span>&uarr; Back to Top</span>
-            </button>
-          </div>
-        </div>
-
-        <div class="pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-zinc-500">
-          <p>&copy; 2026 Amina &amp; Zayd Wedding Series. All Rights Reserved.</p>
-          <p>BarakAllahu Lakuma • Crafted with Faith &amp; Love</p>
-        </div>
-      </div>
-    </footer>
-
-    <!-- ===================================================================== -->
-    <!-- INTERACTIVE MODAL 1: FULL CAST PROFILE (BRIDE / GROOM DETAILS)        -->
-    <!-- ===================================================================== -->
-    <div
-      id="profile-modal"
-      class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-black/85 backdrop-blur-md"
-      onclick="if(event.target === this) closeProfileModal()"
-    >
-      <div class="relative w-full max-w-2xl rounded-3xl bg-surfaceElevated border border-white/15 p-7 sm:p-10 shadow-2xl space-y-6">
-        <button
-          onclick="closeProfileModal()"
-          aria-label="Close modal"
-          class="absolute top-5 right-5 w-9 h-9 rounded-full bg-white/10 hover:bg-crimson text-white hover:!text-white flex items-center justify-center transition-colors"
-        >
-          &times;
-        </button>
-
-        <div id="profile-modal-content" class="space-y-5"></div>
-      </div>
-    </div>
-
-    <!-- ===================================================================== -->
-    <!-- INTERACTIVE MODAL 2: SERIES HIGHLIGHT REEL / TEASER                   -->
-    <!-- ===================================================================== -->
-    <div
-      id="trailer-modal"
-      class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-black/90 backdrop-blur-lg"
-      onclick="if(event.target === this) closeTrailerModal()"
-    >
-      <div class="relative w-full max-w-3xl rounded-3xl bg-surfaceElevated border border-white/15 overflow-hidden shadow-2xl">
-        <div class="flex items-center justify-between px-6 py-4 border-b border-white/10">
-          <div class="flex items-center gap-2">
-            <span class="w-2 h-2 rounded-full bg-crimson animate-pulse"></span>
-            <span class="text-xs font-bold uppercase tracking-[0.25em] text-zinc-300">
-              Official Story Reel • Season 01
+        <!-- Live Guest Blessings Wall (6 Columns) -->
+        <div class="reveal-up lg:col-span-6 space-y-4">
+          <div class="flex items-center justify-between px-1">
+            <h3 class="font-display text-2xl tracking-wider text-white uppercase">
+              Live Guest Blessings &amp; Duas
+            </h3>
+            <span id="blessing-count" class="px-3 py-1 rounded-full bg-gold/15 text-gold text-xs font-semibold">
+              Blessings
             </span>
           </div>
-          <button
-            onclick="closeTrailerModal()"
-            class="w-8 h-8 rounded-full bg-white/10 hover:bg-crimson text-white hover:!text-white flex items-center justify-center transition-colors"
-          >
-            &times;
-          </button>
-        </div>
 
-        <div id="reel-stage" class="p-8 sm:p-14 text-center min-h-[320px] flex flex-col items-center justify-center space-y-5 bg-gradient-to-br from-obsidian via-surface to-crimson/10">
-          <span id="reel-step-badge" class="px-3 py-1 rounded-full bg-gold/15 border border-gold/30 text-gold text-xs font-bold tracking-widest uppercase">
-            Chapter 01 of 04
-          </span>
-          <h3 id="reel-title" class="font-serif italic text-3xl sm:text-5xl text-white">
-            Written in the Heavens
-          </h3>
-          <p id="reel-desc" class="text-sm sm:text-base text-zinc-300 max-w-xl leading-relaxed">
-            “And We created you in pairs.” — Quran (78:8). Two families, two journeys, brought together by divine
-            decree and mutual respect.
-          </p>
+          <div id="blessings-list" class="space-y-4 max-h-[560px] overflow-y-auto pr-1">
+            <div class="rounded-2xl bg-surface border border-white/10 p-5 space-y-2.5">
+              <div class="flex items-center justify-between gap-2">
+                <span class="font-semibold text-sm text-white">Mr &amp; Ms. Ghulam Yaseen Chishti</span>
+                <span
+                  class="px-2.5 py-0.5 rounded-full bg-emerald-500/15 text-emerald-500 text-[10px] font-semibold uppercase">
+                  Groom Parents
+                </span>
+              </div>
+              <p class="font-urdu text-xl text-gold" dir="rtl" lang="ur">
+                بَارَكَ اللَّهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ
+              </p>
+              <p class="text-xs text-zinc-400 leading-relaxed">
+                May Allah bless both of you, shower His mercy upon your home, and unite you always in goodness and
+                joy. Counting down the days!
+              </p>
+            </div>
 
-          <div class="flex items-center gap-2 pt-4">
-            <button onclick="setReelSlide(0)" class="reel-dot w-8 h-1.5 rounded-full bg-crimson transition-all"></button>
-            <button onclick="setReelSlide(1)" class="reel-dot w-8 h-1.5 rounded-full bg-white/20 transition-all"></button>
-            <button onclick="setReelSlide(2)" class="reel-dot w-8 h-1.5 rounded-full bg-white/20 transition-all"></button>
-            <button onclick="setReelSlide(3)" class="reel-dot w-8 h-1.5 rounded-full bg-white/20 transition-all"></button>
+            <div class="rounded-2xl bg-surface border border-white/10 p-5 space-y-2.5">
+              <div class="flex items-center justify-between gap-2">
+                <span class="font-semibold text-sm text-white">Mr &amp; Ms. Taseen</span>
+                <span
+                  class="px-2.5 py-0.5 rounded-full bg-emerald-500/15 text-emerald-500 text-[10px] font-semibold uppercase">
+                  Groom Uncle
+                </span>
+              </div>
+              <p class="text-xs text-zinc-300 leading-relaxed">
+                The most awaited premiere of the year! So thrilled for Amina and Zayd—may your journey together be
+                filled with endless laughter, peace, and Barakah.
+              </p>
+            </div>
+
+            <div class="rounded-2xl bg-surface border border-white/10 p-5 space-y-2.5">
+              <div class="flex items-center justify-between gap-2">
+                <span class="font-semibold text-sm text-white">Mr &amp; Ms. Ameen</span>
+                <span class="px-2.5 py-0.5 rounded-full bg-gold/15 text-gold text-[10px] font-semibold uppercase">
+                  Groom Uncle
+                </span>
+              </div>
+              <p class="text-xs text-zinc-300 leading-relaxed">
+                Sending warmest prayers from London for our beloved niece Amina and Zayd. May Almighty Allah grant
+                you a lifetime of love, prosperity, and harmony.
+              </p>
+            </div>
           </div>
         </div>
+      </div>
+      </div>
+    </section>
+  </main>
 
-        <div class="px-6 py-4 bg-obsidian flex items-center justify-between border-t border-white/10">
-          <button
-            onclick="prevReelSlide()"
-            class="px-4 py-2 rounded-lg bg-white/5 hover:bg-white/15 text-xs uppercase tracking-wider text-zinc-300"
-          >
-            &larr; Previous
-          </button>
-          <button
-            onclick="nextReelSlide()"
-            class="px-5 py-2 rounded-lg bg-crimson hover:bg-crimsonDark !text-white text-xs font-bold uppercase tracking-wider"
-          >
-            Next Chapter &rarr;
+  <!-- ===================================================================== -->
+  <!-- SECTION 9: STREAMING-INSPIRED FOOTER                                  -->
+  <!-- ===================================================================== -->
+  <footer class="relative z-10 border-t border-white/10 bg-surface pt-16 pb-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center pb-12 border-b border-white/10 space-y-3">
+        <p class="text-xs font-bold tracking-[0.35em] uppercase text-crimson">
+          TO BE CONTINUED IN PARADISE, IN SHA ALLAH
+        </p>
+        <h2 class="font-display text-3xl sm:text-5xl tracking-[0.08em] text-white uppercase">
+          A LIFETIME ORIGINAL • SEASON 1 PREMIERING DECEMBER 2026
+        </h2>
+        <p class="font-serif italic text-lg text-gold">
+          Amina Siddiqui &amp; Zayd Al-Mansoor
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 py-12 text-xs text-zinc-400">
+        <div class="space-y-3">
+          <div class="flex items-center gap-2.5">
+            <span class="w-7 h-7 rounded bg-crimson flex items-center justify-center font-display text-lg !text-white">
+              N
+            </span>
+            <span class="font-display text-xl tracking-widest text-white">AMINA &amp; ZAYD</span>
+          </div>
+          <p class="leading-relaxed text-zinc-500">
+            Produced with love by the Siddiqui &amp; Al-Mansoor Families. Your presence and Duas are our most treasured
+            gifts.
+          </p>
+        </div>
+
+        <div class="space-y-2.5">
+          <h4 class="font-bold uppercase tracking-[0.2em] text-zinc-200 mb-3">Episodes &amp; Links</h4>
+          <ul class="space-y-2">
+            <li><a href="#bismillah-hero" class="hover:text-gold transition-colors">Opening: In the Name of Allah</a>
+            </li>
+            <li><a href="#bride-profile" class="hover:text-gold transition-colors">Episode 01: The Bride</a></li>
+            <li><a href="#groom-profile" class="hover:text-gold transition-colors">Episode 02: The Groom</a></li>
+            <li><a href="#ceremonies" class="hover:text-gold transition-colors">Season 1: Ceremonies</a></li>
+            <li><a href="#travel-guide" class="hover:text-gold transition-colors">Travel &amp; Accommodation</a></li>
+            <li><a href="#salami-registry" class="hover:text-gold transition-colors">Digital Salami &amp; Registry</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="space-y-2.5">
+          <h4 class="font-bold uppercase tracking-[0.2em] text-zinc-200 mb-3">Family Contacts</h4>
+          <ul class="space-y-2">
+            <li>
+              <span class="text-zinc-300 font-medium">Siddiqui Family (Bride):</span><br />
+              <a href="tel:+923001234567" class="hover:text-gold transition-colors">+92 300 123 4567</a>
+            </li>
+            <li>
+              <span class="text-zinc-300 font-medium">Al-Mansoor Family (Groom):</span><br />
+              <a href="tel:+923217654321" class="hover:text-gold transition-colors">+92 321 765 4321</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="font-bold uppercase tracking-[0.2em] text-zinc-200 mb-3">Main Premiere Venue</h4>
+          <p class="leading-relaxed">
+            Pearl Continental Grand Ballroom<br />
+            Shahrah-e-Quaid-e-Azam, Lahore, Pakistan
+          </p>
+          <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+            class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/5 hover:bg-crimson text-white hover:!text-white font-semibold uppercase tracking-wider border border-white/10 hover:border-crimson transition-all">
+            <span>&uarr; Back to Top</span>
           </button>
         </div>
       </div>
+
+      <div
+        class="pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-zinc-500">
+        <p>&copy; 2026 Amina &amp; Zayd Wedding Series. All Rights Reserved.</p>
+        <p>BarakAllahu Lakuma • Crafted with Faith &amp; Love</p>
+      </div>
     </div>
+  </footer>
 
-    <!-- ===================================================================== -->
-    <!-- JAVASCRIPT: THEME, GUEST SELECTOR, TRAVEL, SALAMI, COUNTDOWN & RSVP   -->
-    <!-- ===================================================================== -->
-    <script>
-      // 0. Toast Notification Helper (Replaces alert)
-      let toastTimer = null;
-      function showToast(message) {
-        const toast = document.getElementById('global-toast');
-        const msgEl = document.getElementById('global-toast-msg');
-        if (!toast || !msgEl) return;
-        msgEl.textContent = message;
-        toast.classList.remove('hidden');
-        clearTimeout(toastTimer);
-        toastTimer = setTimeout(() => {
-          toast.classList.add('hidden');
-        }, 3500);
+  <!-- ===================================================================== -->
+  <!-- INTERACTIVE MODAL 1: FULL CAST PROFILE (BRIDE / GROOM DETAILS)        -->
+  <!-- ===================================================================== -->
+  <div id="profile-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-black/85 backdrop-blur-md"
+    onclick="if(event.target === this) closeProfileModal()">
+    <div
+      class="relative w-full max-w-2xl rounded-3xl bg-surfaceElevated border border-white/15 p-7 sm:p-10 shadow-2xl space-y-6">
+      <button onclick="closeProfileModal()" aria-label="Close modal"
+        class="absolute top-5 right-5 w-9 h-9 rounded-full bg-white/10 hover:bg-crimson text-white hover:!text-white flex items-center justify-center transition-colors">
+        &times;
+      </button>
+
+      <div id="profile-modal-content" class="space-y-5"></div>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- INTERACTIVE MODAL 2: SERIES HIGHLIGHT REEL / TEASER                   -->
+  <!-- ===================================================================== -->
+  <div id="trailer-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-black/90 backdrop-blur-lg"
+    onclick="if(event.target === this) closeTrailerModal()">
+    <div
+      class="relative w-full max-w-3xl rounded-3xl bg-surfaceElevated border border-white/15 overflow-hidden shadow-2xl">
+      <div class="flex items-center justify-between px-6 py-4 border-b border-white/10">
+        <div class="flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-crimson animate-pulse"></span>
+          <span class="text-xs font-bold uppercase tracking-[0.25em] text-zinc-300">
+            Official Story Reel • Season 01
+          </span>
+        </div>
+        <button onclick="closeTrailerModal()"
+          class="w-8 h-8 rounded-full bg-white/10 hover:bg-crimson text-white hover:!text-white flex items-center justify-center transition-colors">
+          &times;
+        </button>
+      </div>
+
+      <div id="reel-stage"
+        class="p-8 sm:p-14 text-center min-h-[320px] flex flex-col items-center justify-center space-y-5 bg-gradient-to-br from-obsidian via-surface to-crimson/10">
+        <span id="reel-step-badge"
+          class="px-3 py-1 rounded-full bg-gold/15 border border-gold/30 text-gold text-xs font-bold tracking-widest uppercase">
+          Chapter 01 of 04
+        </span>
+        <h3 id="reel-title" class="font-serif italic text-3xl sm:text-5xl text-white">
+          Written in the Heavens
+        </h3>
+        <p id="reel-desc" class="text-sm sm:text-base text-zinc-300 max-w-xl leading-relaxed">
+          “And We created you in pairs.” — Quran (78:8). Two families, two journeys, brought together by divine
+          decree and mutual respect.
+        </p>
+
+        <div class="flex items-center gap-2 pt-4">
+          <button onclick="setReelSlide(0)" class="reel-dot w-8 h-1.5 rounded-full bg-crimson transition-all"></button>
+          <button onclick="setReelSlide(1)" class="reel-dot w-8 h-1.5 rounded-full bg-white/20 transition-all"></button>
+          <button onclick="setReelSlide(2)" class="reel-dot w-8 h-1.5 rounded-full bg-white/20 transition-all"></button>
+          <button onclick="setReelSlide(3)" class="reel-dot w-8 h-1.5 rounded-full bg-white/20 transition-all"></button>
+        </div>
+      </div>
+
+      <div class="px-6 py-4 bg-obsidian flex items-center justify-between border-t border-white/10">
+        <button onclick="prevReelSlide()"
+          class="px-4 py-2 rounded-lg bg-white/5 hover:bg-white/15 text-xs uppercase tracking-wider text-zinc-300">
+          &larr; Previous
+        </button>
+        <button onclick="nextReelSlide()"
+          class="px-5 py-2 rounded-lg bg-crimson hover:bg-crimsonDark !text-white text-xs font-bold uppercase tracking-wider">
+          Next Chapter &rarr;
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- JAVASCRIPT: THEME, GUEST SELECTOR, TRAVEL, SALAMI, COUNTDOWN & RSVP   -->
+  <!-- ===================================================================== -->
+  <script>
+    // 0. Toast Notification Helper (Replaces alert)
+    let toastTimer = null;
+    function showToast(message) {
+      const toast = document.getElementById('global-toast');
+      const msgEl = document.getElementById('global-toast-msg');
+      if (!toast || !msgEl) return;
+      msgEl.textContent = message;
+      toast.classList.remove('hidden');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => {
+        toast.classList.add('hidden');
+      }, 3500);
+    }
+
+    // Reliable Copy-to-Clipboard using execCommand fallback
+    function copyText(text, successMessage) {
+      const tempInput = document.createElement('textarea');
+      tempInput.value = text;
+      tempInput.setAttribute('readonly', '');
+      tempInput.style.position = 'absolute';
+      tempInput.style.left = '-9999px';
+      document.body.appendChild(tempInput);
+      tempInput.select();
+      try {
+        document.execCommand('copy');
+        showToast(successMessage || 'Copied to clipboard!');
+      } catch (err) {
+        showToast('Unable to copy automatically.');
+      }
+      document.body.removeChild(tempInput);
+    }
+
+    // Gift Registry Pledge Interaction
+    function pledgeGift(btn, itemName) {
+      btn.textContent = 'Reserved ✓';
+      btn.disabled = true;
+      btn.className =
+        'px-3.5 py-2 rounded-xl bg-emerald-600 !text-white text-[11px] font-bold uppercase tracking-wider shrink-0 cursor-default';
+      showToast(`JazakAllah Khair! "${itemName}" marked as reserved.`);
+    }
+
+    // 1. Light / Dark Mode Theme Management
+    function applyTheme(theme) {
+      const html = document.documentElement;
+      const sunIcon = document.getElementById('icon-sun');
+      const moonIcon = document.getElementById('icon-moon');
+      const themeLabel = document.getElementById('theme-label');
+      const metaTheme = document.querySelector('meta[name="theme-color"]');
+
+      if (theme === 'light') {
+        html.setAttribute('data-theme', 'light');
+        if (sunIcon) sunIcon.classList.remove('hidden');
+        if (moonIcon) moonIcon.classList.add('hidden');
+        if (themeLabel) themeLabel.textContent = 'Dark';
+        if (metaTheme) metaTheme.setAttribute('content', '#faf8f5');
+      } else {
+        html.removeAttribute('data-theme');
+        if (sunIcon) sunIcon.classList.add('hidden');
+        if (moonIcon) moonIcon.classList.remove('hidden');
+        if (themeLabel) themeLabel.textContent = 'Light';
+        if (metaTheme) metaTheme.setAttribute('content', '#07070a');
+      }
+      try {
+        localStorage.setItem('wedding_theme', theme);
+      } catch (e) { }
+    }
+
+    function toggleTheme() {
+      const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+      applyTheme(isLight ? 'dark' : 'light');
+    }
+
+    (function initTheme() {
+      let saved = null;
+      try {
+        saved = localStorage.getItem('wedding_theme');
+      } catch (e) { }
+      if (saved === 'light' || saved === 'dark') {
+        applyTheme(saved);
+      } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+        applyTheme('light');
+      }
+    })();
+
+    // 2. "Who's Watching?" Guest Profile Selector Logic
+    const guestProfilesConfig = {
+      bride: {
+        label: "Bride's Squad",
+        greeting: "to a night of joy, gratitude, and togetherness.",
+        note: "Highlighted for Bride's Squad: Mehndi Dholki (Dec 18) & Barat Welcome (Dec 20).",
+        dotColor: 'bg-rose-500',
+        highlightHost: 'bride',
+      },
+      groom: {
+        label: "Groom's Side",
+        greeting: "Welcome, Groom's Side (Al-Mansoor Barat) • Season 01 Premiere",
+        note: "Highlighted for Groom's Side: Barat Procession (Dec 20) & Walima Reception (Dec 21).",
+        dotColor: 'bg-amber-400',
+        highlightHost: 'groom',
+      },
+      family: {
+        label: 'VIP Family',
+        greeting: 'Welcome, Honored Family Elders • VIP All-Access Pass',
+        note: 'All four sacred chapters & VIP family seating reserved for you.',
+        dotColor: 'bg-emerald-400',
+        highlightHost: 'both',
+      },
+      guest: {
+        label: 'Honored Guest',
+        greeting: 'to a night of joy, gratitude, and togetherness.',
+        note: 'Mark your calendars for four unforgettable chapters of tradition, prayer, and celebration.',
+        dotColor: 'bg-gold',
+        highlightHost: 'all',
+      },
+    };
+
+    function openGuestSelector() {
+      const modal = document.getElementById('guest-selector-modal');
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function closeGuestSelector() {
+      const modal = document.getElementById('guest-selector-modal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+      try {
+        sessionStorage.setItem('guest_gate_seen', '1');
+      } catch (e) { }
+    }
+
+    function selectGuestProfile(key) {
+      const cfg = guestProfilesConfig[key] || guestProfilesConfig.guest;
+      document.getElementById('nav-profile-label').textContent = cfg.label;
+      document.getElementById('hero-guest-greeting').textContent = cfg.greeting;
+      document.getElementById('ceremony-side-note').textContent = cfg.note;
+
+      const dot = document.getElementById('nav-profile-dot');
+      dot.className = `w-2 h-2 rounded-full ${cfg.dotColor}`;
+
+      // Pre-select in RSVP dropdown
+      const rsvpSideSelect = document.getElementById('guest-side');
+      if (rsvpSideSelect) {
+        rsvpSideSelect.value = cfg.label;
       }
 
-      // Reliable Copy-to-Clipboard using execCommand fallback
-      function copyText(text, successMessage) {
-        const tempInput = document.createElement('textarea');
-        tempInput.value = text;
-        tempInput.setAttribute('readonly', '');
-        tempInput.style.position = 'absolute';
-        tempInput.style.left = '-9999px';
-        document.body.appendChild(tempInput);
-        tempInput.select();
-        try {
-          document.execCommand('copy');
-          showToast(successMessage || 'Copied to clipboard!');
-        } catch (err) {
-          showToast('Unable to copy automatically.');
-        }
-        document.body.removeChild(tempInput);
-      }
-
-      // Gift Registry Pledge Interaction
-      function pledgeGift(btn, itemName) {
-        btn.textContent = 'Reserved ✓';
-        btn.disabled = true;
-        btn.className =
-          'px-3.5 py-2 rounded-xl bg-emerald-600 !text-white text-[11px] font-bold uppercase tracking-wider shrink-0 cursor-default';
-        showToast(`JazakAllah Khair! "${itemName}" marked as reserved.`);
-      }
-
-      // 1. Light / Dark Mode Theme Management
-      function applyTheme(theme) {
-        const html = document.documentElement;
-        const sunIcon = document.getElementById('icon-sun');
-        const moonIcon = document.getElementById('icon-moon');
-        const themeLabel = document.getElementById('theme-label');
-        const metaTheme = document.querySelector('meta[name="theme-color"]');
-
-        if (theme === 'light') {
-          html.setAttribute('data-theme', 'light');
-          if (sunIcon) sunIcon.classList.remove('hidden');
-          if (moonIcon) moonIcon.classList.add('hidden');
-          if (themeLabel) themeLabel.textContent = 'Dark';
-          if (metaTheme) metaTheme.setAttribute('content', '#faf8f5');
+      // Highlight matching ceremony cards
+      document.querySelectorAll('.ceremony-card').forEach((card) => {
+        const host = card.getAttribute('data-host');
+        if (cfg.highlightHost === 'all' || cfg.highlightHost === 'both' || host === cfg.highlightHost || host === 'both') {
+          card.style.opacity = '1';
         } else {
-          html.removeAttribute('data-theme');
-          if (sunIcon) sunIcon.classList.add('hidden');
-          if (moonIcon) moonIcon.classList.remove('hidden');
-          if (themeLabel) themeLabel.textContent = 'Light';
-          if (metaTheme) metaTheme.setAttribute('content', '#07070a');
+          card.style.opacity = '0.78';
         }
-        try {
-          localStorage.setItem('wedding_theme', theme);
-        } catch (e) {}
-      }
+      });
 
-      function toggleTheme() {
-        const isLight = document.documentElement.getAttribute('data-theme') === 'light';
-        applyTheme(isLight ? 'dark' : 'light');
-      }
+      try {
+        localStorage.setItem('wedding_guest_side', key);
+      } catch (e) { }
 
-      (function initTheme() {
-        let saved = null;
-        try {
-          saved = localStorage.getItem('wedding_theme');
-        } catch (e) {}
-        if (saved === 'light' || saved === 'dark') {
-          applyTheme(saved);
-        } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
-          applyTheme('light');
-        }
-      })();
+      closeGuestSelector();
+      showToast(`Viewing tailored for ${cfg.label}`);
+    }
 
-      // 2. "Who's Watching?" Guest Profile Selector Logic
-      const guestProfilesConfig = {
-        bride: {
-          label: "Bride's Squad",
-          greeting: "Welcome, Bride's Squad (Siddiqui Side) • Season 01 Premiere",
-          note: "Highlighted for Bride's Squad: Mehndi Dholki (Dec 18) & Barat Welcome (Dec 20).",
-          dotColor: 'bg-rose-500',
-          highlightHost: 'bride',
-        },
-        groom: {
-          label: "Groom's Side",
-          greeting: "Welcome, Groom's Side (Al-Mansoor Barat) • Season 01 Premiere",
-          note: "Highlighted for Groom's Side: Barat Procession (Dec 20) & Walima Reception (Dec 21).",
-          dotColor: 'bg-amber-400',
-          highlightHost: 'groom',
-        },
-        family: {
-          label: 'VIP Family',
-          greeting: 'Welcome, Honored Family Elders • VIP All-Access Pass',
-          note: 'All four sacred chapters & VIP family seating reserved for you.',
-          dotColor: 'bg-emerald-400',
-          highlightHost: 'both',
-        },
-        guest: {
-          label: 'Honored Guest',
-          greeting: 'Welcome, Honored Guest • Season 01 Nikah Premiere',
-          note: 'Mark your calendars for four unforgettable chapters of tradition, prayer, and celebration.',
-          dotColor: 'bg-gold',
-          highlightHost: 'all',
-        },
-      };
-
-      function openGuestSelector() {
-        const modal = document.getElementById('guest-selector-modal');
-        modal.classList.remove('hidden');
-        modal.classList.add('flex');
-      }
-
-      function closeGuestSelector() {
-        const modal = document.getElementById('guest-selector-modal');
-        modal.classList.add('hidden');
-        modal.classList.remove('flex');
-        try {
-          sessionStorage.setItem('guest_gate_seen', '1');
-        } catch (e) {}
-      }
-
-      function selectGuestProfile(key) {
-        const cfg = guestProfilesConfig[key] || guestProfilesConfig.guest;
-        document.getElementById('nav-profile-label').textContent = cfg.label;
-        document.getElementById('hero-guest-greeting').textContent = cfg.greeting;
-        document.getElementById('ceremony-side-note').textContent = cfg.note;
-
-        const dot = document.getElementById('nav-profile-dot');
-        dot.className = `w-2 h-2 rounded-full ${cfg.dotColor}`;
-
-        // Pre-select in RSVP dropdown
-        const rsvpSideSelect = document.getElementById('guest-side');
-        if (rsvpSideSelect) {
-          rsvpSideSelect.value = cfg.label;
-        }
-
-        // Highlight matching ceremony cards
-        document.querySelectorAll('.ceremony-card').forEach((card) => {
-          const host = card.getAttribute('data-host');
-          if (cfg.highlightHost === 'all' || cfg.highlightHost === 'both' || host === cfg.highlightHost || host === 'both') {
-            card.style.opacity = '1';
-          } else {
-            card.style.opacity = '0.78';
-          }
-        });
-
-        try {
-          localStorage.setItem('wedding_guest_side', key);
-        } catch (e) {}
-
-        closeGuestSelector();
-        showToast(`Viewing tailored for ${cfg.label}`);
-      }
-
-      // 3. Studio Slate Auto-Dismiss -> Triggers "Who's Watching?" Gate on First Visit
-      let slateDismissed = false;
-      function dismissStudioSlate() {
-        if (slateDismissed) return;
-        slateDismissed = true;
-        const slate = document.getElementById('studio-slate');
-        if (slate) {
-          slate.style.opacity = '0';
-          setTimeout(() => {
-            slate.style.display = 'none';
-            let gateSeen = false;
-            try {
-              gateSeen = sessionStorage.getItem('guest_gate_seen') === '1';
-            } catch (e) {}
-            if (!gateSeen) {
-              openGuestSelector();
-            }
-          }, 650);
-        }
-      }
-
-      window.addEventListener('load', () => {
-        try {
-          const savedSide = localStorage.getItem('wedding_guest_side');
-          if (savedSide && guestProfilesConfig[savedSide]) {
-            const cfg = guestProfilesConfig[savedSide];
-            document.getElementById('nav-profile-label').textContent = cfg.label;
-            document.getElementById('hero-guest-greeting').textContent = cfg.greeting;
-          }
-        } catch (e) {}
-
+    // 3. Studio Slate Auto-Dismiss -> Triggers "Who's Watching?" Gate on First Visit
+    let slateDismissed = false;
+    function dismissStudioSlate() {
+      if (slateDismissed) return;
+      slateDismissed = true;
+      const slate = document.getElementById('studio-slate');
+      if (slate) {
+        slate.style.opacity = '0';
         setTimeout(() => {
-          dismissStudioSlate();
-        }, 2300);
-      });
-
-      // 4. Travel & Stay Interactive Tabs
-      function switchTravelTab(tabName) {
-        document.querySelectorAll('.travel-panel').forEach((panel) => {
-          panel.classList.add('hidden');
-          panel.classList.remove('grid');
-        });
-        const target = document.getElementById(`travel-panel-${tabName}`);
-        if (target) {
-          target.classList.remove('hidden');
-          target.classList.add('grid');
-        }
-
-        document.querySelectorAll('.travel-tab-btn').forEach((btn) => {
-          btn.className =
-            'travel-tab-btn px-4 py-2 rounded-lg text-zinc-400 hover:text-white text-xs font-bold uppercase tracking-wider transition-all';
-        });
-        const activeBtn = document.getElementById(`tab-btn-${tabName}`);
-        if (activeBtn) {
-          activeBtn.className =
-            'travel-tab-btn px-4 py-2 rounded-lg bg-crimson !text-white text-xs font-bold uppercase tracking-wider transition-all';
-        }
-      }
-
-      // 4b. Ride Service Promo Code Generator & Copy Logic
-      const rideServiceConfigs = {
-        Careem: {
-          standardCode: 'CAREEM-AZ10',
-          vipCode: 'CAREEM-AZVIP20',
-          url: 'https://www.careem.com/',
-        },
-        Yango: {
-          standardCode: 'YANGO-AZ10',
-          vipCode: 'YANGO-AZVIP20',
-          url: 'https://yango.com/',
-        },
-        Uber: {
-          standardCode: 'UBER-AZ10',
-          vipCode: 'UBER-AZVIP20',
-          url: 'https://m.uber.com/',
-        },
-      };
-
-      let activeRideService = 'Careem';
-      let activeRideTier = 'standard';
-
-      function updateRideVoucherUI() {
-        const cfg = rideServiceConfigs[activeRideService] || rideServiceConfigs.Careem;
-        const isVip = activeRideTier === 'vip';
-        const code = isVip ? cfg.vipCode : cfg.standardCode;
-        const discountLabel = isVip ? '20% OFF' : '10% OFF';
-        const capText = isVip ? '20% Off (Up to PKR 1,500 • Airport / Out-of-Town)' : '10% Off (Up to PKR 800 / ride)';
-
-        const headlineEl = document.getElementById('ride-discount-headline');
-        const codeEl = document.getElementById('ride-voucher-code');
-        const metaEl = document.getElementById('ride-voucher-meta');
-        const linkEl = document.getElementById('ride-deeplink-btn');
-
-        if (headlineEl) headlineEl.textContent = discountLabel;
-        if (codeEl) codeEl.textContent = code;
-        if (metaEl) metaEl.textContent = `${activeRideService} Promo Code • ${capText}`;
-        if (linkEl) {
-          linkEl.href = cfg.url;
-          linkEl.textContent = `Open ${activeRideService} ↗`;
-        }
-
-        // Update service button styles
-        ['Careem', 'Yango', 'Uber'].forEach((svc) => {
-          const btn = document.getElementById(`ride-svc-${svc}`);
-          if (!btn) return;
-          btn.className =
-            svc === activeRideService
-              ? 'ride-svc-btn py-2 px-2 rounded-lg bg-crimson !text-white text-[11px] font-bold uppercase tracking-wider transition-all'
-              : 'ride-svc-btn py-2 px-2 rounded-lg text-zinc-400 hover:text-white text-[11px] font-bold uppercase tracking-wider transition-all';
-        });
-
-        // Update tier button styles
-        const stdBtn = document.getElementById('ride-tier-standard');
-        const vipBtn = document.getElementById('ride-tier-vip');
-        if (stdBtn && vipBtn) {
-          stdBtn.className = !isVip
-            ? 'ride-tier-btn py-2 px-2 rounded-lg bg-gold/20 border border-gold/40 text-gold text-[11px] font-bold uppercase tracking-wider transition-all'
-            : 'ride-tier-btn py-2 px-2 rounded-lg text-zinc-400 hover:text-white text-[11px] font-bold uppercase tracking-wider transition-all';
-          vipBtn.className = isVip
-            ? 'ride-tier-btn py-2 px-2 rounded-lg bg-gold/20 border border-gold/40 text-gold text-[11px] font-bold uppercase tracking-wider transition-all'
-            : 'ride-tier-btn py-2 px-2 rounded-lg text-zinc-400 hover:text-white text-[11px] font-bold uppercase tracking-wider transition-all';
-        }
-      }
-
-      function setRideService(service) {
-        activeRideService = service;
-        updateRideVoucherUI();
-      }
-
-      function setRideTier(tier) {
-        activeRideTier = tier;
-        updateRideVoucherUI();
-      }
-
-      function copyActiveRideCode() {
-        const codeEl = document.getElementById('ride-voucher-code');
-        const code = codeEl ? codeEl.textContent.trim() : 'CAREEM-AZ10';
-        const pct = activeRideTier === 'vip' ? '20%' : '10%';
-        copyText(code, `${activeRideService} code ${code} (${pct} off) copied!`);
-      }
-
-      // 5. Hide-on-Scroll Navigation Bar
-      let lastScrollY = window.scrollY;
-      const navbar = document.getElementById('navbar');
-      window.addEventListener(
-        'scroll',
-        () => {
-          const currentScrollY = window.scrollY;
-          if (currentScrollY > 120 && currentScrollY > lastScrollY) {
-            navbar.style.transform = 'translateY(-100%)';
-          } else {
-            navbar.style.transform = 'translateY(0)';
+          slate.style.display = 'none';
+          let gateSeen = false;
+          try {
+            gateSeen = sessionStorage.getItem('guest_gate_seen') === '1';
+          } catch (e) { }
+          if (!gateSeen) {
+            openGuestSelector();
           }
-          lastScrollY = currentScrollY;
-        },
-        { passive: true }
-      );
-
-      // 6. Live Wedding Countdown Timer (Target: Dec 20, 2026 19:30:00)
-      const weddingDate = new Date('December 20, 2026 19:30:00').getTime();
-
-      function updateCountdown() {
-        const now = new Date().getTime();
-        const distance = Math.max(0, weddingDate - now);
-
-        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const mins = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        const secs = Math.floor((distance % (1000 * 60)) / 1000);
-
-        document.getElementById('cd-days').textContent = String(days).padStart(2, '0');
-        document.getElementById('cd-hours').textContent = String(hours).padStart(2, '0');
-        document.getElementById('cd-mins').textContent = String(mins).padStart(2, '0');
-        document.getElementById('cd-secs').textContent = String(secs).padStart(2, '0');
+        }, 650);
       }
-      updateCountdown();
-      setInterval(updateCountdown, 1000);
+    }
 
-      // 7. Intersection Observer for Smooth Scroll Reveals
-      const observer = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              entry.target.classList.add('is-visible');
-            }
-          });
-        },
-        { threshold: 0.1 }
-      );
-      document.querySelectorAll('.reveal-up').forEach((el) => observer.observe(el));
+    window.addEventListener('load', () => {
+      try {
+        const savedSide = localStorage.getItem('wedding_guest_side');
+        if (savedSide && guestProfilesConfig[savedSide]) {
+          const cfg = guestProfilesConfig[savedSide];
+          document.getElementById('nav-profile-label').textContent = cfg.label;
+          document.getElementById('hero-guest-greeting').textContent = cfg.greeting;
+        }
+      } catch (e) { }
 
-      // 8. Subtle 3D Tilt Hover Effect on Desktop Cards
-      document.querySelectorAll('.tilt-card').forEach((card) => {
-        card.addEventListener('mousemove', (e) => {
-          if (window.innerWidth < 1024) return;
-          const rect = card.getBoundingClientRect();
-          const x = e.clientX - rect.left;
-          const y = e.clientY - rect.top;
-          const centerX = rect.width / 2;
-          const centerY = rect.height / 2;
-          const rotateX = ((y - centerY) / centerY) * -3.5;
-          const rotateY = ((x - centerX) / centerX) * 3.5;
-          card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-4px)`;
-        });
-        card.addEventListener('mouseleave', () => {
-          card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) translateY(0px)';
-        });
+      setTimeout(() => {
+        dismissStudioSlate();
+      }, 2300);
+    });
+
+    // 4. Travel & Stay Interactive Tabs
+    function switchTravelTab(tabName) {
+      document.querySelectorAll('.travel-panel').forEach((panel) => {
+        panel.classList.add('hidden');
+        panel.classList.remove('grid');
+      });
+      const target = document.getElementById(`travel-panel-${tabName}`);
+      if (target) {
+        target.classList.remove('hidden');
+        target.classList.add('grid');
+      }
+
+      document.querySelectorAll('.travel-tab-btn').forEach((btn) => {
+        btn.className =
+          'travel-tab-btn px-4 py-2 rounded-lg text-zinc-400 hover:text-white text-xs font-bold uppercase tracking-wider transition-all';
+      });
+      const activeBtn = document.getElementById(`tab-btn-${tabName}`);
+      if (activeBtn) {
+        activeBtn.className =
+          'travel-tab-btn px-4 py-2 rounded-lg bg-crimson !text-white text-xs font-bold uppercase tracking-wider transition-all';
+      }
+    }
+
+    // 4b. Ride Service Promo Code Generator & Copy Logic
+    const rideServiceConfigs = {
+      Careem: {
+        standardCode: 'CAREEM-AZ10',
+        vipCode: 'CAREEM-AZVIP20',
+        url: 'https://www.careem.com/',
+      },
+      Yango: {
+        standardCode: 'YANGO-AZ10',
+        vipCode: 'YANGO-AZVIP20',
+        url: 'https://yango.com/',
+      },
+      Uber: {
+        standardCode: 'UBER-AZ10',
+        vipCode: 'UBER-AZVIP20',
+        url: 'https://m.uber.com/',
+      },
+    };
+
+    let activeRideService = 'Careem';
+    let activeRideTier = 'standard';
+
+    function updateRideVoucherUI() {
+      const cfg = rideServiceConfigs[activeRideService] || rideServiceConfigs.Careem;
+      const isVip = activeRideTier === 'vip';
+      const code = isVip ? cfg.vipCode : cfg.standardCode;
+      const discountLabel = isVip ? '20% OFF' : '10% OFF';
+      const capText = isVip ? '20% Off (Up to PKR 1,500 • Airport / Out-of-Town)' : '10% Off (Up to PKR 800 / ride)';
+
+      const headlineEl = document.getElementById('ride-discount-headline');
+      const codeEl = document.getElementById('ride-voucher-code');
+      const metaEl = document.getElementById('ride-voucher-meta');
+      const linkEl = document.getElementById('ride-deeplink-btn');
+
+      if (headlineEl) headlineEl.textContent = discountLabel;
+      if (codeEl) codeEl.textContent = code;
+      if (metaEl) metaEl.textContent = `${activeRideService} Promo Code • ${capText}`;
+      if (linkEl) {
+        linkEl.href = cfg.url;
+        linkEl.textContent = `Open ${activeRideService} ↗`;
+      }
+
+      // Update service button styles
+      ['Careem', 'Yango', 'Uber'].forEach((svc) => {
+        const btn = document.getElementById(`ride-svc-${svc}`);
+        if (!btn) return;
+        btn.className =
+          svc === activeRideService
+            ? 'ride-svc-btn py-2 px-2 rounded-lg bg-crimson !text-white text-[11px] font-bold uppercase tracking-wider transition-all'
+            : 'ride-svc-btn py-2 px-2 rounded-lg text-zinc-400 hover:text-white text-[11px] font-bold uppercase tracking-wider transition-all';
       });
 
-      // 9. Cast Profile Modal Data & Controls
-      const castProfiles = {
-        bride: {
-          badge: 'EPISODE 01 • THE BRIDE',
-          name: 'Amina Siddiqui',
-          lineage: 'Beloved Daughter of Mr. Tariq Siddiqui & Mrs. Nadia Siddiqui',
-          grandparents: 'Granddaughter of Late Haji Abdul Rahman Siddiqui & Mrs. Razia Begum',
-          education: 'Master of Architecture (NCA Lahore) • Lead Heritage & Interior Designer',
-          bio: 'Amina blends artistic grace with deep compassion. She has led sustainable architectural restoration projects across Lahore and loves classical Urdu poetry, Islamic geometric calligraphy, and gathering loved ones over homemade desserts.',
-          familyNote: 'Warmly welcomed by siblings: Hamza Siddiqui & Zara Siddiqui.',
-        },
-        groom: {
-          badge: 'EPISODE 02 • THE GROOM',
-          name: 'Zayd Al-Mansoor',
-          lineage: 'Beloved Son of Mr. Kamran Al-Mansoor & Mrs. Ayesha Al-Mansoor',
-          grandparents: 'Grandson of Mr. Mahmood Al-Mansoor & Late Mrs. Kulsoom Al-Mansoor',
-          education: 'M.Sc. Artificial Intelligence • Principal Engineering Lead',
-          bio: 'Zayd is admired for his humility, sincerity, and calm leadership. Beyond architecting enterprise AI platforms, he enjoys northern mountain expeditions, specialty coffee brewing, and mentoring young engineers.',
-          familyNote: 'Warmly welcomed by siblings: Bilal Al-Mansoor & Maryam Al-Mansoor.',
-        },
-      };
+      // Update tier button styles
+      const stdBtn = document.getElementById('ride-tier-standard');
+      const vipBtn = document.getElementById('ride-tier-vip');
+      if (stdBtn && vipBtn) {
+        stdBtn.className = !isVip
+          ? 'ride-tier-btn py-2 px-2 rounded-lg bg-gold/20 border border-gold/40 text-gold text-[11px] font-bold uppercase tracking-wider transition-all'
+          : 'ride-tier-btn py-2 px-2 rounded-lg text-zinc-400 hover:text-white text-[11px] font-bold uppercase tracking-wider transition-all';
+        vipBtn.className = isVip
+          ? 'ride-tier-btn py-2 px-2 rounded-lg bg-gold/20 border border-gold/40 text-gold text-[11px] font-bold uppercase tracking-wider transition-all'
+          : 'ride-tier-btn py-2 px-2 rounded-lg text-zinc-400 hover:text-white text-[11px] font-bold uppercase tracking-wider transition-all';
+      }
+    }
 
-      function openProfileModal(role) {
-        const data = castProfiles[role];
-        const modal = document.getElementById('profile-modal');
-        const container = document.getElementById('profile-modal-content');
-        container.innerHTML = `
+    function setRideService(service) {
+      activeRideService = service;
+      updateRideVoucherUI();
+    }
+
+    function setRideTier(tier) {
+      activeRideTier = tier;
+      updateRideVoucherUI();
+    }
+
+    function copyActiveRideCode() {
+      const codeEl = document.getElementById('ride-voucher-code');
+      const code = codeEl ? codeEl.textContent.trim() : 'CAREEM-AZ10';
+      const pct = activeRideTier === 'vip' ? '20%' : '10%';
+      copyText(code, `${activeRideService} code ${code} (${pct} off) copied!`);
+    }
+
+    // 5. Hide-on-Scroll Navigation Bar
+    let lastScrollY = window.scrollY;
+    const navbar = document.getElementById('navbar');
+    window.addEventListener(
+      'scroll',
+      () => {
+        const currentScrollY = window.scrollY;
+        if (currentScrollY > 120 && currentScrollY > lastScrollY) {
+          navbar.style.transform = 'translateY(-100%)';
+        } else {
+          navbar.style.transform = 'translateY(0)';
+        }
+        lastScrollY = currentScrollY;
+      },
+      { passive: true }
+    );
+
+    // 6. Live Wedding Countdown Timer (Target: Dec 20, 2026 19:30:00)
+    const weddingDate = new Date('December 06, 2026 15:00:00').getTime();
+
+    function updateCountdown() {
+      const now = new Date().getTime();
+      const distance = Math.max(0, weddingDate - now);
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const mins = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const secs = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById('cd-days').textContent = String(days).padStart(2, '0');
+      document.getElementById('cd-hours').textContent = String(hours).padStart(2, '0');
+      document.getElementById('cd-mins').textContent = String(mins).padStart(2, '0');
+      document.getElementById('cd-secs').textContent = String(secs).padStart(2, '0');
+    }
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+
+    // 7. Intersection Observer for Smooth Scroll Reveals
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+    document.querySelectorAll('.reveal-up').forEach((el) => observer.observe(el));
+
+    // 8. Subtle 3D Tilt Hover Effect on Desktop Cards
+    document.querySelectorAll('.tilt-card').forEach((card) => {
+      card.addEventListener('mousemove', (e) => {
+        if (window.innerWidth < 1024) return;
+        const rect = card.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        const centerX = rect.width / 2;
+        const centerY = rect.height / 2;
+        const rotateX = ((y - centerY) / centerY) * -3.5;
+        const rotateY = ((x - centerX) / centerX) * 3.5;
+        card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-4px)`;
+      });
+      card.addEventListener('mouseleave', () => {
+        card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) translateY(0px)';
+      });
+    });
+
+    // 9. Cast Profile Modal Data & Controls
+    const castProfiles = {
+      // bride: {
+      //   badge: 'EPISODE 01 • THE BRIDE',
+      //   name: 'Amina Siddiqui',
+      //   lineage: 'Beloved Daughter of Mr. Tariq Siddiqui & Mrs. Nadia Siddiqui',
+      //   grandparents: 'Granddaughter of Late Haji Abdul Rahman Siddiqui & Mrs. Razia Begum',
+      //   education: 'Master of Architecture (NCA Lahore) • Lead Heritage & Interior Designer',
+      //   bio: 'Amina blends artistic grace with deep compassion. She has led sustainable architectural restoration projects across Lahore and loves classical Urdu poetry, Islamic geometric calligraphy, and gathering loved ones over homemade desserts.',
+      //   familyNote: 'Warmly welcomed by siblings: Hamza Siddiqui & Zara Siddiqui.',
+      // },
+      groom: {
+        badge: 'GROOM',
+        name: 'Muhammad Waseem',
+        lineage: 'Beloved Son of Mr & Mrs. Hafiz Ghulam Yaseen Chishti',
+        grandparents: 'Mr & Mrs. Hafiz Muhammad Iqbal Marhoom',
+        education: 'Computer Scientist • Full Stack Developer',
+        bio: 'Waseem is admired for his humility, sincerity, and calm leadership. Beyond architecting enterprise AI platforms, he enjoys northern mountain expeditions, specialty coffee brewing, and mentoring young engineers.',
+        familyNote: 'Warmly welcomed by siblings: Muhammad Mustaqeem & Ahmad Jameel',
+      },
+    };
+
+    function openProfileModal(role) {
+      const data = castProfiles[role];
+      const modal = document.getElementById('profile-modal');
+      const container = document.getElementById('profile-modal-content');
+      container.innerHTML = `
           <span class="inline-block px-3 py-1 rounded-full bg-crimson/15 border border-crimson/40 text-crimson text-xs font-bold tracking-widest uppercase">
             ${data.badge}
           </span>
@@ -2401,187 +2316,188 @@
           <p class="text-sm text-zinc-300 leading-relaxed">${data.bio}</p>
           <p class="text-xs italic text-goldLight pt-2 border-t border-white/10">${data.familyNote}</p>
         `;
-        modal.classList.remove('hidden');
-        modal.classList.add('flex');
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function closeProfileModal() {
+      const modal = document.getElementById('profile-modal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    // 10. Highlight Reel / Teaser Modal Controls
+    const reelSlides = [
+      {
+        badge: 'Chapter 01 of 04',
+        title: 'Written in the Heavens',
+        desc: '“And We created you in pairs.” — Quran (78:8). Two families, two journeys, brought together by divine decree and mutual respect.',
+      },
+      {
+        badge: 'Chapter 02 of 04',
+        title: 'The Bride & The Groom',
+        desc: 'Amina Siddiqui & Zayd Al-Mansoor—uniting architectural artistry with technological vision, grounded in faith and family.',
+      },
+      {
+        badge: 'Chapter 03 of 04',
+        title: 'Four Days of Celebration',
+        desc: 'From the vibrant Mehndi Dholki on Dec 18 to the serene Nikah, Royal Barat, and Grand Walima Reception on Dec 21.',
+      },
+      {
+        badge: 'Chapter 04 of 04',
+        title: 'Your Duas Complete Our Story',
+        desc: 'We cannot wait to welcome you in Lahore and celebrate this sacred milestone together.',
+      },
+    ];
+    let currentReelIdx = 0;
+
+    function setReelSlide(idx) {
+      currentReelIdx = (idx + reelSlides.length) % reelSlides.length;
+      const slide = reelSlides[currentReelIdx];
+      document.getElementById('reel-step-badge').textContent = slide.badge;
+      document.getElementById('reel-title').textContent = slide.title;
+      document.getElementById('reel-desc').textContent = slide.desc;
+
+      document.querySelectorAll('.reel-dot').forEach((dot, i) => {
+        dot.className =
+          i === currentReelIdx
+            ? 'reel-dot w-8 h-1.5 rounded-full bg-crimson transition-all'
+            : 'reel-dot w-8 h-1.5 rounded-full bg-white/20 transition-all';
+      });
+    }
+
+    function nextReelSlide() {
+      setReelSlide(currentReelIdx + 1);
+    }
+    function prevReelSlide() {
+      setReelSlide(currentReelIdx - 1);
+    }
+
+    function openTrailerModal() {
+      setReelSlide(0);
+      const modal = document.getElementById('trailer-modal');
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function closeTrailerModal() {
+      const modal = document.getElementById('trailer-modal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeProfileModal();
+        closeTrailerModal();
+        closeGuestSelector();
       }
+    });
 
-      function closeProfileModal() {
-        const modal = document.getElementById('profile-modal');
-        modal.classList.add('hidden');
-        modal.classList.remove('flex');
-      }
+    // 11. Interactive RSVP Form & Live Guest Blessings Wall
+    let totalBlessings = 3;
+    document.getElementById('rsvp-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      const nameInput = document.getElementById('guest-name');
+      const sideInput = document.getElementById('guest-side');
+      const attendanceInput = document.getElementById('attendance');
+      const countInput = document.getElementById('guest-count');
+      const duaInput = document.getElementById('guest-dua');
 
-      // 10. Highlight Reel / Teaser Modal Controls
-      const reelSlides = [
-        {
-          badge: 'Chapter 01 of 04',
-          title: 'Written in the Heavens',
-          desc: '“And We created you in pairs.” — Quran (78:8). Two families, two journeys, brought together by divine decree and mutual respect.',
-        },
-        {
-          badge: 'Chapter 02 of 04',
-          title: 'The Bride & The Groom',
-          desc: 'Amina Siddiqui & Zayd Al-Mansoor—uniting architectural artistry with technological vision, grounded in faith and family.',
-        },
-        {
-          badge: 'Chapter 03 of 04',
-          title: 'Four Days of Celebration',
-          desc: 'From the vibrant Mehndi Dholki on Dec 18 to the serene Nikah, Royal Barat, and Grand Walima Reception on Dec 21.',
-        },
-        {
-          badge: 'Chapter 04 of 04',
-          title: 'Your Duas Complete Our Story',
-          desc: 'We cannot wait to welcome you in Lahore and celebrate this sacred milestone together.',
-        },
-      ];
-      let currentReelIdx = 0;
+      const checkedEvents = Array.from(document.querySelectorAll('input[name="events"]:checked')).map((cb) => cb.value);
+      const badgeText =
+        attendanceInput.value === 'Joyfully Attending'
+          ? `${sideInput.value} • ${countInput.value}`
+          : `${sideInput.value} • Sending Duas`;
 
-      function setReelSlide(idx) {
-        currentReelIdx = (idx + reelSlides.length) % reelSlides.length;
-        const slide = reelSlides[currentReelIdx];
-        document.getElementById('reel-step-badge').textContent = slide.badge;
-        document.getElementById('reel-title').textContent = slide.title;
-        document.getElementById('reel-desc').textContent = slide.desc;
+      const card = document.createElement('div');
+      card.className = 'rounded-2xl bg-surfaceElevated border border-gold/40 p-5 space-y-2.5';
 
-        document.querySelectorAll('.reel-dot').forEach((dot, i) => {
-          dot.className =
-            i === currentReelIdx
-              ? 'reel-dot w-8 h-1.5 rounded-full bg-crimson transition-all'
-              : 'reel-dot w-8 h-1.5 rounded-full bg-white/20 transition-all';
-        });
-      }
+      const header = document.createElement('div');
+      header.className = 'flex items-center justify-between gap-2';
 
-      function nextReelSlide() {
-        setReelSlide(currentReelIdx + 1);
-      }
-      function prevReelSlide() {
-        setReelSlide(currentReelIdx - 1);
-      }
+      const nameSpan = document.createElement('span');
+      nameSpan.className = 'font-semibold text-sm text-white';
+      nameSpan.textContent = nameInput.value.trim();
 
-      function openTrailerModal() {
-        setReelSlide(0);
-        const modal = document.getElementById('trailer-modal');
-        modal.classList.remove('hidden');
-        modal.classList.add('flex');
-      }
+      const badgeSpan = document.createElement('span');
+      badgeSpan.className =
+        'px-2.5 py-0.5 rounded-full bg-emerald-500/15 text-emerald-500 text-[10px] font-semibold uppercase';
+      badgeSpan.textContent = badgeText;
 
-      function closeTrailerModal() {
-        const modal = document.getElementById('trailer-modal');
-        modal.classList.add('hidden');
-        modal.classList.remove('flex');
-      }
+      header.appendChild(nameSpan);
+      header.appendChild(badgeSpan);
 
-      document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape') {
-          closeProfileModal();
-          closeTrailerModal();
-          closeGuestSelector();
-        }
+      const msgP = document.createElement('p');
+      msgP.className = 'text-xs text-zinc-200 leading-relaxed';
+      msgP.textContent = duaInput.value.trim();
+
+      card.appendChild(header);
+      card.appendChild(msgP);
+
+      const list = document.getElementById('blessings-list');
+      list.prepend(card);
+
+      totalBlessings += 1;
+      document.getElementById('blessing-count').textContent = `${totalBlessings} Blessings`;
+
+      const toast = document.getElementById('rsvp-toast');
+      toast.classList.remove('hidden');
+      this.reset();
+
+      setTimeout(() => {
+        toast.classList.add('hidden');
+      }, 5000);
+    });
+
+    // 12. Ambient Floating Gold & Crimson Particles (Theme-Aware)
+    (function initParticles() {
+      const canvas = document.getElementById('ambient-canvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      let width = (canvas.width = window.innerWidth);
+      let height = (canvas.height = window.innerHeight);
+
+      window.addEventListener('resize', () => {
+        width = canvas.width = window.innerWidth;
+        height = canvas.height = window.innerHeight;
       });
 
-      // 11. Interactive RSVP Form & Live Guest Blessings Wall
-      let totalBlessings = 3;
-      document.getElementById('rsvp-form').addEventListener('submit', function (e) {
-        e.preventDefault();
-        const nameInput = document.getElementById('guest-name');
-        const sideInput = document.getElementById('guest-side');
-        const attendanceInput = document.getElementById('attendance');
-        const countInput = document.getElementById('guest-count');
-        const duaInput = document.getElementById('guest-dua');
+      const particles = Array.from({ length: 38 }, () => ({
+        x: Math.random() * width,
+        y: Math.random() * height,
+        r: Math.random() * 1.8 + 0.6,
+        vx: (Math.random() - 0.5) * 0.25,
+        vy: -Math.random() * 0.35 - 0.1,
+        isGold: Math.random() > 0.3,
+      }));
 
-        const checkedEvents = Array.from(document.querySelectorAll('input[name="events"]:checked')).map((cb) => cb.value);
-        const badgeText =
-          attendanceInput.value === 'Joyfully Attending'
-            ? `${sideInput.value} • ${countInput.value}`
-            : `${sideInput.value} • Sending Duas`;
+      function animate() {
+        ctx.clearRect(0, 0, width, height);
+        const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+        const goldColor = isLight ? 'rgba(168, 126, 27, 0.32)' : 'rgba(212, 175, 55, 0.45)';
+        const crimsonColor = isLight ? 'rgba(200, 16, 46, 0.25)' : 'rgba(229, 9, 20, 0.4)';
 
-        const card = document.createElement('div');
-        card.className = 'rounded-2xl bg-surfaceElevated border border-gold/40 p-5 space-y-2.5';
-
-        const header = document.createElement('div');
-        header.className = 'flex items-center justify-between gap-2';
-
-        const nameSpan = document.createElement('span');
-        nameSpan.className = 'font-semibold text-sm text-white';
-        nameSpan.textContent = nameInput.value.trim();
-
-        const badgeSpan = document.createElement('span');
-        badgeSpan.className =
-          'px-2.5 py-0.5 rounded-full bg-emerald-500/15 text-emerald-500 text-[10px] font-semibold uppercase';
-        badgeSpan.textContent = badgeText;
-
-        header.appendChild(nameSpan);
-        header.appendChild(badgeSpan);
-
-        const msgP = document.createElement('p');
-        msgP.className = 'text-xs text-zinc-200 leading-relaxed';
-        msgP.textContent = duaInput.value.trim();
-
-        card.appendChild(header);
-        card.appendChild(msgP);
-
-        const list = document.getElementById('blessings-list');
-        list.prepend(card);
-
-        totalBlessings += 1;
-        document.getElementById('blessing-count').textContent = `${totalBlessings} Blessings`;
-
-        const toast = document.getElementById('rsvp-toast');
-        toast.classList.remove('hidden');
-        this.reset();
-
-        setTimeout(() => {
-          toast.classList.add('hidden');
-        }, 5000);
-      });
-
-      // 12. Ambient Floating Gold & Crimson Particles (Theme-Aware)
-      (function initParticles() {
-        const canvas = document.getElementById('ambient-canvas');
-        if (!canvas) return;
-        const ctx = canvas.getContext('2d');
-        let width = (canvas.width = window.innerWidth);
-        let height = (canvas.height = window.innerHeight);
-
-        window.addEventListener('resize', () => {
-          width = canvas.width = window.innerWidth;
-          height = canvas.height = window.innerHeight;
-        });
-
-        const particles = Array.from({ length: 38 }, () => ({
-          x: Math.random() * width,
-          y: Math.random() * height,
-          r: Math.random() * 1.8 + 0.6,
-          vx: (Math.random() - 0.5) * 0.25,
-          vy: -Math.random() * 0.35 - 0.1,
-          isGold: Math.random() > 0.3,
-        }));
-
-        function animate() {
-          ctx.clearRect(0, 0, width, height);
-          const isLight = document.documentElement.getAttribute('data-theme') === 'light';
-          const goldColor = isLight ? 'rgba(168, 126, 27, 0.32)' : 'rgba(212, 175, 55, 0.45)';
-          const crimsonColor = isLight ? 'rgba(200, 16, 46, 0.25)' : 'rgba(229, 9, 20, 0.4)';
-
-          for (const p of particles) {
-            p.x += p.vx;
-            p.y += p.vy;
-            if (p.y < -10) {
-              p.y = height + 10;
-              p.x = Math.random() * width;
-            }
-            if (p.x < -10) p.x = width + 10;
-            if (p.x > width + 10) p.x = -10;
-
-            ctx.beginPath();
-            ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-            ctx.fillStyle = p.isGold ? goldColor : crimsonColor;
-            ctx.fill();
+        for (const p of particles) {
+          p.x += p.vx;
+          p.y += p.vy;
+          if (p.y < -10) {
+            p.y = height + 10;
+            p.x = Math.random() * width;
           }
-          requestAnimationFrame(animate);
+          if (p.x < -10) p.x = width + 10;
+          if (p.x > width + 10) p.x = -10;
+
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+          ctx.fillStyle = p.isGold ? goldColor : crimsonColor;
+          ctx.fill();
         }
-        animate();
-      })();
-    </script>
-  </body>
+        requestAnimationFrame(animate);
+      }
+      animate();
+    })();
+  </script>
+</body>
+
 </html>
